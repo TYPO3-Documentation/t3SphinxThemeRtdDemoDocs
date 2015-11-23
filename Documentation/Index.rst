@@ -19,6 +19,7 @@ Demo Docs
 
    highlighting
    textroles
+   lineblocks
    typesetting
    demo-of-lists
    long
@@ -157,6 +158,15 @@ Code with Sidebar
 
     With a sidebar on the right.
 
+
+
+.. literalinclude:: /../../../../../../etc/passwd
+.. literalinclude:: /../../../../../../../etc/passwd
+.. literalinclude:: /../../../../../../../../etc/passwd
+
+
+
+
 .. literalinclude:: test_py_module/test.py
     :language: python
     :linenos:
@@ -283,7 +293,6 @@ Download links
 ==============
 
 :download:`This long long long long long long long long long long long long long long long download link should be blue with icon, and should wrap white-spaces <static/yi_jing_01_chien.jpg>`
-
 
 
 
