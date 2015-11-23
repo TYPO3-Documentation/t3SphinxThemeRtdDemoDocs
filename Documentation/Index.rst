@@ -159,14 +159,6 @@ Code with Sidebar
     With a sidebar on the right.
 
 
-
-.. literalinclude:: /../../../../../../etc/passwd
-.. literalinclude:: /../../../../../../../etc/passwd
-.. literalinclude:: /../../../../../../../../etc/passwd
-
-
-
-
 .. literalinclude:: test_py_module/test.py
     :language: python
     :linenos:
