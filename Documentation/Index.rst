@@ -21,6 +21,7 @@ Demo Docs
    textroles
    lineblocks
    typesetting
+   fonts/Index
    demo-of-lists
    long
    reStructuredText Demonstration from the Docutils Docs <reStructuredText-Demonstration>
