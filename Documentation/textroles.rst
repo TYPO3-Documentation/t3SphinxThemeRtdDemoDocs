@@ -10,10 +10,8 @@ Textroles
 .. role:: aspect (emphasis)
 .. role:: html(code)
 .. role:: js(code)
-.. role:: method(code)
 .. role:: php(code)
 .. role:: typoscript(code)
-
 .. role:: ts(typoscript)
    :class: typoscript
 
@@ -31,11 +29,9 @@ role             source                                            output
 (default)        ```result = (1 + x) * 32```                       `result = (1 + x) * 32`
 aspect           ``:aspect:`Description:```                        :aspect:`Description:`
 code             ``:code:`result = (1 + x) * 32```                 :code:`result = (1 + x) * 32`
-class            ``:class:`\\TYPO3\\CMS\\Extbase```                :class:`\\TYPO3\\CMS\\Extbase`
 file             ``:file:`/etc/passwd```                           :file:`/etc/passwd`
 js               ``:js:`var f = function () {return 1;}```         :js:`var f = function () {return 1;}`
 html             ``:html:`<a href="#">```                          :html:`<a href="#">`
-method           ``:method:`__construct()```                       :method:`__construct()`
 ts               ``:ts:`lib.hello.value = Hello World!```          :ts:`lib.hello.value = Hello World!`
 typoscript       ``:typoscript:`lib.hello.value = Hello World!```  :typoscript:`lib.hello.value = Hello World!`
 php              ``:php:`$result = $a + 23;```                     :php:`$result = $a + 23;`
