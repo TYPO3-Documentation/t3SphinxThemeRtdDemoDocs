@@ -64,10 +64,8 @@ In file :file:`Includes.txt` we usually have::
    .. role:: aspect (emphasis)
    .. role:: html(code)
    .. role:: js(code)
-   .. role:: method(code)
    .. role:: php(code)
    .. role:: typoscript(code)
-
    .. role:: ts(typoscript)
       :class: typoscript
 
