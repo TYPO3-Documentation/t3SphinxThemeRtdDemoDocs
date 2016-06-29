@@ -1,22 +1,8 @@
+.. include:: ../Includes.txt
 
 =========
 Textroles
 =========
-
-
-.. This is 'Includes.txt'. It is included at the very top of each and
-   every ReST source file in THIS documentation project (= manual).
-
-.. role:: aspect (emphasis)
-.. role:: html(code)
-.. role:: js(code)
-.. role:: php(code)
-.. role:: typoscript(code)
-.. role:: ts(typoscript)
-   :class: typoscript
-
-.. highlight:: rst
-.. default-role:: code
 
 
 Übersicht

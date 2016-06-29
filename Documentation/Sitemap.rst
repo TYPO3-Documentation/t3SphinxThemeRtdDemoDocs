@@ -1,5 +1,7 @@
 :orphan: True
 
+.. include:: Includes.txt
+
 .. only:: html
 
    .. _Sitemap:

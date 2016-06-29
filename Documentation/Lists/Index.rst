@@ -1,3 +1,4 @@
+.. include:: ../Includes.txt
 
 =============
 Demo of Lists
@@ -33,9 +34,9 @@ A list
     - `yahoo <http://www.yahoo.com>`_
     - ``huh``
 - how
-- ``inline literall``
-- ``inline literall``
-- ``inline literall``
+- ``inline literal``
+- ``inline literal``
+- ``inline literal``
 
 Another list
 ============
@@ -109,7 +110,7 @@ Second list level
 
       heh heh. child. try to beat this embed:
 
-      .. literalinclude:: test_py_module/test.py
+      .. literalinclude:: ../test_py_module/test.py
           :language: python
           :linenos:
           :lines: 1-10

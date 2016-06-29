@@ -1,4 +1,4 @@
-
+.. include:: ../Includes.txt
 
 
 ============
@@ -29,7 +29,7 @@ Active Scheme
 Here's a screenshot of the color scheme used for highlighting.
 Development of that scheme started with the 'Prism higher lightness' scheme.
 
-.. figure:: images/scheme-prism-higher-lightness.png
+.. figure:: ../images/scheme-prism-higher-lightness.png
    :alt: colors and values of the scheme
    :target: https://github.com/chriskempson/base16-builder/blob/master/schemes/
 
@@ -40,7 +40,7 @@ Development of that scheme started with the 'Prism higher lightness' scheme.
    We can easily change colors by switching to another list of 16 colors
    as available from the `Base16 Builder <https://github.com/chriskempson/base16-builder>`__.
 
-   .. figure:: images/scheme-summerfruit.png
+   .. figure:: ../images/scheme-summerfruit.png
       :alt: colors of the 'summerfruit' scheme
       :target: https://github.com/chriskempson/base16-builder/blob/master/schemes/summerfruit.yml
 
@@ -413,44 +413,22 @@ Javascript
 
 ::
 
-   import {x, y} as p from 'point';
-   const ANSWER = 42;
+   var makeNoise = function() {
+     console.log("Pling!");
+   };
 
-   class Car extends Vehicle {
-     constructor(speed, cost) {
-       super(speed);
+   makeNoise();
+   // → Pling!
 
-       var c = Symbol('cost');
-       this[c] = cost;
+   var power = function(base, exponent) {
+     var result = 1;
+     for (var count = 0; count < exponent; count++)
+       result *= base;
+     return result;
+   };
 
-       this.intro = `This is a car runs at
-         ${speed}.`;
-     }
-   }
-
-   for (let num of [1, 2, 3]) {
-     console.log(num + 0b111110111);
-   }
-
-   function $initHighlight(block, flags) {
-     try {
-       if (block.className.search(/\bno\-highlight\b/) != -1)
-         return processBlock(block.function, true, 0x0F) + ' class=""';
-     } catch (e) {
-       /* handle exception */
-       var e4x =
-           <div>Example
-               <p>1234</p></div>;
-     }
-     for (var i = 0 / 2; i < classes.length; i++) { // "0 / 2" should not be parsed as regexp
-       if (checkCondition(classes[i]) === undefined)
-         return /\d+[\s/]/g;
-     }
-     console.log(Array.every(classes, Boolean));
-   }
-
-   export  $initHighlight;
-
+   console.log(power(2, 10));
+   // → 1024
 
 
 JSON
@@ -879,5 +857,5 @@ pymentize -L
 
 .. highlight:: bash
 
-.. literalinclude:: includes/pygmentize-L.txt
+.. literalinclude:: ../includes/pygmentize-L.txt
 

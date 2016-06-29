@@ -1,5 +1,6 @@
 :orphan: True
 
+.. include:: Includes.txt
 
 .. _Copyright:
 
