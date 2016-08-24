@@ -2,15 +2,14 @@
 
 .. include:: Includes.txt
 
-.. only:: html
 
-   .. _Sitemap:
+.. _Sitemap:
 
-   =======
-   Sitemap
-   =======
+=======
+Sitemap
+=======
 
-   .. toctree::
+.. toctree::
 
-      /Index
+   /Index
 
