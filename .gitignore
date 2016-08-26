@@ -1,4 +1,7 @@
-/bootstrap/compiled.php
+*.pyc
+*NOT_VERSIONED*
+.env
 .env.*.php
 .env.php
-.env
+/bootstrap/compiled.php
+
