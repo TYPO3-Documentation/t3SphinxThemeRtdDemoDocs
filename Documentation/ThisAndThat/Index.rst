@@ -9,6 +9,71 @@ This And That
 :ref:`Sitemap`
 
 
+Compact Lists
+=============
+
+Keywords: css, compactlist
+
+Add CSS class `compactlist` to lists to get `li` tags with `margin-top:0; margin-bottom:0`.
+
+In case of a normal list:
+
+.. code-block:: rst
+
+   .. rst-class:: compactlist
+
+   -  abc
+   -  bcd
+   -  cde
+
+Should look like:
+
+.. rst-class:: compactlist
+
+-  abc
+-  bcd
+-  cde
+
+
+Or, for example:
+
+.. code-block:: rst
+
+   .. rst-class:: compactlist
+
+   1. one
+   2. two
+   3. three
+
+Should look like:
+
+.. rst-class:: compactlist
+
+1. one
+2. two
+3. three
+
+
+In case of `.. toctree::`:
+
+.. code-block:: rst
+
+   .. rst-class:: compactlist
+   .. troctree::
+
+      Abc/Index
+      Bcd/Index
+
+In case of `.. contents::`:
+
+.. code-block:: rst
+
+   .. contents::
+      :class: compactlist
+
+
+
+
 Maaaaath!
 =========
 
