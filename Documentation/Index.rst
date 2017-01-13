@@ -30,7 +30,5 @@ Demo Docs
    ThisAndThat/Index
    Typesetting/Index
    1/index
-
-
-:ref:`Sitemap`
+   Sitemap/Index
 

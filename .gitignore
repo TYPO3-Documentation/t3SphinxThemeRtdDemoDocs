@@ -4,4 +4,4 @@
 .env.*.php
 .env.php
 /bootstrap/compiled.php
-
+.idea
