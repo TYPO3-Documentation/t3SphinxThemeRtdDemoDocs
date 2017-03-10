@@ -31,6 +31,69 @@ Images of Series A
 .. image:: ../images/loremipsum/a7.jpg
    :alt: Image a7
 
+Images of Series A with border
+------------------------------
+
+.. image:: ../images/loremipsum/a1.jpg
+   :alt: Image a1
+   :class: with-border
+
+.. image:: ../images/loremipsum/a2.jpg
+   :alt: Image a2
+   :class: with-border
+
+.. image:: ../images/loremipsum/a3.jpg
+   :alt: Image a3
+   :class: with-border
+
+.. image:: ../images/loremipsum/a4.jpg
+   :alt: Image a4
+   :class: with-border
+
+.. image:: ../images/loremipsum/a5.jpg
+   :alt: Image a5
+   :class: with-border
+
+.. image:: ../images/loremipsum/a6.jpg
+   :alt: Image a6
+   :class: with-border
+
+.. image:: ../images/loremipsum/a7.jpg
+   :alt: Image a7
+   :class: with-border
+
+
+Images of Series A with shadow
+------------------------------
+
+.. image:: ../images/loremipsum/a1.jpg
+   :alt: Image a1
+   :class: with-shadow
+
+.. image:: ../images/loremipsum/a2.jpg
+   :alt: Image a2
+   :class: with-shadow
+
+.. image:: ../images/loremipsum/a3.jpg
+   :alt: Image a3
+   :class: with-shadow
+
+.. image:: ../images/loremipsum/a4.jpg
+   :alt: Image a4
+   :class: with-shadow
+
+.. image:: ../images/loremipsum/a5.jpg
+   :alt: Image a5
+   :class: with-shadow
+
+.. image:: ../images/loremipsum/a6.jpg
+   :alt: Image a6
+   :class: with-shadow
+
+.. image:: ../images/loremipsum/a7.jpg
+   :alt: Image a7
+   :class: with-shadow
+
 
 Images of Series B
 ------------------
