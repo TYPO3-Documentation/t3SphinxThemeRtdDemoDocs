@@ -154,6 +154,97 @@ Figures of Series C
 
    Here you see c7
 
+Figures of Series C with border
+-------------------------------
+
+.. figure:: ../images/loremipsum/c1.jpg
+   :alt: figure c1
+   :class: with-border
+
+   Here you see c1
+
+.. figure:: ../images/loremipsum/c2.jpg
+   :alt: figure c2
+   :class: with-border
+
+   Here you see c2
+
+.. figure:: ../images/loremipsum/c3.jpg
+   :alt: figure c3
+   :class: with-border
+
+   Here you see c3
+
+.. figure:: ../images/loremipsum/c4.jpg
+   :alt: figure c4
+   :class: with-border
+
+   Here you see c4
+
+.. figure:: ../images/loremipsum/c5.jpg
+   :alt: figure c5
+   :class: with-border
+
+   Here you see c5
+
+.. figure:: ../images/loremipsum/c6.jpg
+   :alt: figure c6
+   :class: with-border
+
+   Here you see c6
+
+.. figure:: ../images/loremipsum/c7.jpg
+   :alt: figure c7
+   :class: with-border
+
+   Here you see c7
+
+
+Figures of Series C with shadow
+-------------------------------
+
+.. figure:: ../images/loremipsum/c1.jpg
+   :alt: figure c1
+   :class: with-shadow
+
+   Here you see c1
+
+.. figure:: ../images/loremipsum/c2.jpg
+   :alt: figure c2
+   :class: with-shadow
+
+   Here you see c2
+
+.. figure:: ../images/loremipsum/c3.jpg
+   :alt: figure c3
+   :class: with-shadow
+
+   Here you see c3
+
+.. figure:: ../images/loremipsum/c4.jpg
+   :alt: figure c4
+   :class: with-shadow
+
+   Here you see c4
+
+.. figure:: ../images/loremipsum/c5.jpg
+   :alt: figure c5
+   :class: with-shadow
+
+   Here you see c5
+
+.. figure:: ../images/loremipsum/c6.jpg
+   :alt: figure c6
+   :class: with-shadow
+
+   Here you see c6
+
+.. figure:: ../images/loremipsum/c7.jpg
+   :alt: figure c7
+   :class: with-shadow
+
+   Here you see c7
+
 
 Figures of Series D
 -------------------
