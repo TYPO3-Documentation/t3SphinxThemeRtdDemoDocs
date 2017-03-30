@@ -269,18 +269,82 @@ Boxes
 Buttons
 =======
 
-horizbuttons-danger xl, xxl, xxxl
----------------------------------
+horizbuttons-attention-xl
+-------------------------
 
-Like admonitions 'caution', 'danger', 'warning' (red)
+Like admonition 'attention' (blue)
 
-.. rst-class:: horizbuttons-danger-xxl
-- horizbuttons-danger-xxl
+.. rst-class:: horizbuttons-attention-xl
+- horizbuttons-attention-xl
 - two
 - three
 
-horizbuttons-attention xl, xxl, xxxl
-------------------------------------
+horizbuttons-important-xl
+-------------------------
+
+Like admonitions 'error', 'important' (yellow)
+
+.. rst-class:: horizbuttons-important-xl
+- horizbuttons-important-xl
+- two
+- three
+
+horizbuttons-note-xl
+--------------------
+
+Like admonitions 'generic', 'note', 'see also' (neutral, grey)
+
+.. rst-class:: horizbuttons-note-xl
+- horizbuttons-note-xl
+- two
+- three
+
+horizbuttons-primary-xl
+-----------------------
+
+Use the primary = key color (TYPO3 orange)
+
+.. rst-class:: horizbuttons-primary-xl
+- horizbuttons-primary-xl
+- two
+- three
+
+
+horizbuttons-striking-xl
+------------------------
+
+Very strinking an unusuable, cannot be overseen.
+
+.. rst-class:: horizbuttons-striking-xl
+- horizbuttons-striking-xl
+- two
+- three
+
+
+horizbuttons-tip-xl
+-------------------
+
+Like admonitions 'hint', 'tip' (green)
+
+.. rst-class:: horizbuttons-tip-xl
+- horizbuttons-tip-xl
+- two
+- three
+
+horizbuttons-warning-xl
+-----------------------
+
+Like admonitions 'caution', 'danger', 'warning' (red)
+
+.. rst-class:: horizbuttons-warning-xl
+- horizbuttons-danger-xl
+- two
+- three
+
+
+
+horizbuttons-attention-xxl
+--------------------------
 
 Like admonition 'attention' (blue)
 
@@ -289,8 +353,8 @@ Like admonition 'attention' (blue)
 - two
 - three
 
-horizbuttons-important xl, xxl, xxxl
-------------------------------------
+horizbuttons-important-xxl
+--------------------------
 
 Like admonitions 'error', 'important' (yellow)
 
@@ -299,8 +363,8 @@ Like admonitions 'error', 'important' (yellow)
 - two
 - three
 
-horizbuttons-note xl, xxl, xxxl
--------------------------------
+horizbuttons-note-xxl
+---------------------
 
 Like admonitions 'generic', 'note', 'see also' (neutral, grey)
 
@@ -309,18 +373,8 @@ Like admonitions 'generic', 'note', 'see also' (neutral, grey)
 - two
 - three
 
-horizbuttons-tip xl, xxl, xxxl
-------------------------------
-
-Like admonitions 'hint', 'tip' (green)
-
-.. rst-class:: horizbuttons-tip-xxl
-- horizbuttons-tip-xxl
-- two
-- three
-
-horizbuttons-primary xl, xxl, xxxl
-----------------------------------
+horizbuttons-primary-xxl
+------------------------
 
 Use the primary = key color (TYPO3 orange)
 
@@ -330,13 +384,104 @@ Use the primary = key color (TYPO3 orange)
 - three
 
 
-horizbuttons-striking xl, xxl, xxxl
-----------------------------------
+horizbuttons-striking-xxl
+-------------------------
 
 Very strinking an unusuable, cannot be overseen.
 
 .. rst-class:: horizbuttons-striking-xxl
 - horizbuttons-striking-xxl
+- two
+- three
+
+horizbuttons-tip-xxl
+--------------------
+
+Like admonitions 'hint', 'tip' (green)
+
+.. rst-class:: horizbuttons-tip-xxl
+- horizbuttons-tip-xxl
+- two
+- three
+
+horizbuttons-warning-xxl
+------------------------
+
+Like admonitions 'caution', 'danger', 'warning' (red)
+
+.. rst-class:: horizbuttons-warning-xxl
+- horizbuttons-danger-xxl
+- two
+- three
+
+horizbuttons-attention-xxxl
+---------------------------
+
+Like admonition 'attention' (blue)
+
+.. rst-class:: horizbuttons-attention-xxxl
+- horizbuttons-attention-xxxl
+- two
+- three
+
+horizbuttons-important-xxxl
+---------------------------
+
+Like admonitions 'error', 'important' (yellow)
+
+.. rst-class:: horizbuttons-important-xxxl
+- horizbuttons-important-xxxl
+- two
+- three
+
+horizbuttons-note-xxxl
+----------------------
+
+Like admonitions 'generic', 'note', 'see also' (neutral, grey)
+
+.. rst-class:: horizbuttons-note-xxxl
+- horizbuttons-note-xxxl
+- two
+- three
+
+horizbuttons-primary-xxxl
+-------------------------
+
+Use the primary = key color (TYPO3 orange)
+
+.. rst-class:: horizbuttons-primary-xxxl
+- horizbuttons-primary-xxxl
+- two
+- three
+
+
+horizbuttons-striking-xxxl
+--------------------------
+
+Very strinking an unusuable, cannot be overseen.
+
+.. rst-class:: horizbuttons-striking-xxxl
+- horizbuttons-striking-xxxl
+- two
+- three
+
+horizbuttons-tip-xxxl
+---------------------
+
+Like admonitions 'hint', 'tip' (green)
+
+.. rst-class:: horizbuttons-tip-xxxl
+- horizbuttons-tip-xxxl
+- two
+- three
+
+horizbuttons-warning-xxxl
+-------------------------
+
+Like admonitions 'caution', 'danger', 'warning' (red)
+
+.. rst-class:: horizbuttons-warning-xxxl
+- horizbuttons-danger-xxxl
 - two
 - three
 
