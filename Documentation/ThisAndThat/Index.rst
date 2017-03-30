@@ -269,75 +269,75 @@ Boxes
 Buttons
 =======
 
-horizbuttons-attention-xl
--------------------------
+horizbuttons-attention-m
+------------------------
 
 Like admonition 'attention' (blue)
 
-.. rst-class:: horizbuttons-attention-xl
-- horizbuttons-attention-xl
+.. rst-class:: horizbuttons-attention-m
+- horizbuttons-attention-m
 - two
 - three
 
-horizbuttons-important-xl
--------------------------
+horizbuttons-important-m
+------------------------
 
 Like admonitions 'error', 'important' (yellow)
 
-.. rst-class:: horizbuttons-important-xl
-- horizbuttons-important-xl
+.. rst-class:: horizbuttons-important-m
+- horizbuttons-important-m
 - two
 - three
 
-horizbuttons-note-xl
---------------------
+horizbuttons-note-m
+-------------------
 
 Like admonitions 'generic', 'note', 'see also' (neutral, grey)
 
-.. rst-class:: horizbuttons-note-xl
-- horizbuttons-note-xl
+.. rst-class:: horizbuttons-note-m
+- horizbuttons-note-m
 - two
 - three
 
-horizbuttons-primary-xl
+horizbuttons-primary-m
 -----------------------
 
 Use the primary = key color (TYPO3 orange)
 
-.. rst-class:: horizbuttons-primary-xl
-- horizbuttons-primary-xl
+.. rst-class:: horizbuttons-primary-m
+- horizbuttons-primary-m
 - two
 - three
 
 
-horizbuttons-striking-xl
-------------------------
+horizbuttons-striking-m
+-----------------------
 
 Very strinking an unusuable, cannot be overseen.
 
-.. rst-class:: horizbuttons-striking-xl
-- horizbuttons-striking-xl
+.. rst-class:: horizbuttons-striking-m
+- horizbuttons-striking-m
 - two
 - three
 
 
-horizbuttons-tip-xl
--------------------
+horizbuttons-tip-m
+------------------
 
 Like admonitions 'hint', 'tip' (green)
 
-.. rst-class:: horizbuttons-tip-xl
-- horizbuttons-tip-xl
+.. rst-class:: horizbuttons-tip-m
+- horizbuttons-tip-m
 - two
 - three
 
-horizbuttons-warning-xl
------------------------
+horizbuttons-warning-m
+----------------------
 
 Like admonitions 'caution', 'danger', 'warning' (red)
 
-.. rst-class:: horizbuttons-warning-xl
-- horizbuttons-danger-xl
+.. rst-class:: horizbuttons-warning-m
+- horizbuttons-danger-m
 - two
 - three
 
