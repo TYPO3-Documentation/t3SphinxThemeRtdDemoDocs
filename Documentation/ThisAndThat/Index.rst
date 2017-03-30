@@ -266,6 +266,79 @@ Boxes
    Description of todo.
 
 
+Buttons
+=======
+
+horizbuttons-danger xl, xxl, xxxl
+---------------------------------
+
+Like admonitions 'caution', 'danger', 'warning' (red)
+
+.. rst-class:: horizbuttons-danger-xxl
+- horizbuttons-danger-xxl
+- two
+- three
+
+horizbuttons-attention xl, xxl, xxxl
+------------------------------------
+
+Like admonition 'attention' (blue)
+
+.. rst-class:: horizbuttons-attention-xxl
+- horizbuttons-attention-xxl
+- two
+- three
+
+horizbuttons-important xl, xxl, xxxl
+------------------------------------
+
+Like admonitions 'error', 'important' (yellow)
+
+.. rst-class:: horizbuttons-important-xxl
+- horizbuttons-important-xxl
+- two
+- three
+
+horizbuttons-note xl, xxl, xxxl
+-------------------------------
+
+Like admonitions 'generic', 'note', 'see also' (neutral, grey)
+
+.. rst-class:: horizbuttons-note-xxl
+- horizbuttons-note-xxl
+- two
+- three
+
+horizbuttons-tip xl, xxl, xxxl
+------------------------------
+
+Like admonitions 'hint', 'tip' (green)
+
+.. rst-class:: horizbuttons-tip-xxl
+- horizbuttons-tip-xxl
+- two
+- three
+
+horizbuttons-primary xl, xxl, xxxl
+----------------------------------
+
+Use the primary = key color (TYPO3 orange)
+
+.. rst-class:: horizbuttons-primary-xxl
+- horizbuttons-primary-xxl
+- two
+- three
+
+
+horizbuttons-striking xl, xxl, xxxl
+----------------------------------
+
+Very strinking an unusuable, cannot be overseen.
+
+.. rst-class:: horizbuttons-striking-xxl
+- horizbuttons-striking-xxl
+- two
+- three
 
 
 
