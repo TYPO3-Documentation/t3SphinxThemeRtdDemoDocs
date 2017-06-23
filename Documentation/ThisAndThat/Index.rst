@@ -12,15 +12,15 @@ This And That
 Compact Lists
 =============
 
-Keywords: css, compactlist
+Keywords: css, compact-list
 
-Add CSS class `compactlist` to lists to get `li` tags with `margin-top:0; margin-bottom:0`.
+Add CSS class `compact-list` to lists to get `li` tags with `margin-top:0; margin-bottom:0`.
 
 In case of a normal list:
 
 .. code-block:: rst
 
-   .. rst-class:: compactlist
+   .. rst-class:: compact-list
 
    -  abc
    -  bcd
@@ -28,7 +28,7 @@ In case of a normal list:
 
 Should look like:
 
-.. rst-class:: compactlist
+.. rst-class:: compact-list
 
 -  abc
 -  bcd
@@ -39,7 +39,7 @@ Or, for example:
 
 .. code-block:: rst
 
-   .. rst-class:: compactlist
+   .. rst-class:: compact-list
 
    1. one
    2. two
@@ -47,7 +47,7 @@ Or, for example:
 
 Should look like:
 
-.. rst-class:: compactlist
+.. rst-class:: compact-list
 
 1. one
 2. two
@@ -58,7 +58,7 @@ In case of `.. toctree::`:
 
 .. code-block:: rst
 
-   .. rst-class:: compactlist
+   .. rst-class:: compact-list
    .. troctree::
 
       Abc/Index
@@ -69,7 +69,7 @@ In case of `.. contents::`:
 .. code-block:: rst
 
    .. contents::
-      :class: compactlist
+      :class: compact-list
 
 
 
