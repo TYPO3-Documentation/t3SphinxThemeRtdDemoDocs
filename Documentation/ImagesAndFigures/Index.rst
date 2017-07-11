@@ -6,6 +6,52 @@
 Images And Figures
 ==================
 
+Image float left
+----------------
+
+.. |example-teaser-left| image:: ../images/loremipsum/a4.jpg
+   :alt: Left floating image
+   :class: float-left with-shadow
+
+|example-teaser-left|
+Typesetting is the composition of text by means of arranging physical
+types[1] or the digital equivalents. Stored letters and other symbols
+(called sorts in mechanical systems and glyphs in digital systems)
+are retrieved and ordered according to a language's orthography for
+visual display.
+
+.. rst-class:: clear-both
+
+Floating cleared. Below the image.
+Typesetting is the composition of text by means of arranging physical
+types[1] or the digital equivalents. Stored letters and other symbols
+(called sorts in mechanical systems and glyphs in digital systems)
+are retrieved and ordered according to a language's orthography for
+visual display.
+
+
+
+.. |example-teaser-right| image:: ../images/loremipsum/a4.jpg
+   :alt: Right floating image
+   :class: float-right with-shadow
+
+|example-teaser-right|
+Typesetting is the composition of text by means of arranging physical
+types[1] or the digital equivalents. Stored letters and other symbols
+(called sorts in mechanical systems and glyphs in digital systems)
+are retrieved and ordered according to a language's orthography for
+visual display.
+
+.. rst-class:: clear-both
+
+Floating cleared. Below the image.
+Typesetting is the composition of text by means of arranging physical
+types[1] or the digital equivalents. Stored letters and other symbols
+(called sorts in mechanical systems and glyphs in digital systems)
+are retrieved and ordered according to a language's orthography for
+visual display.
+
+
 
 Images of Series A
 ------------------
