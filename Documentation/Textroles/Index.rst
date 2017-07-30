@@ -32,8 +32,6 @@ Standard Sphinx and Docutils Textroles
 - "code" also is the **default** *text-role*. So ```result = (1 + x) * 32``` looks the
   same `result = (1 + x) * 32` as ``:code:`result = (1 + x) * 32```.
 
-- This is how ``:class:`\\TYPO3\\CMS\\Extbase\\Mvc\\Controller\\ControllerInterface``` looks like: :class:`\\TYPO3\\CMS\\Extbase\\Mvc\\Controller\\ControllerInterface`
-
 - This is how ``:file:`/etc/passwd``` looks like: :file:`/etc/passwd`
 
 

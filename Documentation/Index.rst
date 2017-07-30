@@ -17,6 +17,8 @@ Demo Docs
 .. toctree::
    :hidden:
 
+   ThisAndThat/Index
+   1/index
    Api/Index
    Codeblocks/Index
    Fonts/Index
@@ -24,11 +26,10 @@ Demo Docs
    ImagesAndFigures/Index
    Lineblocks/Index
    Lists/Index
+   ListsOfSteps/Index
    Long/Index
    reStructuredText Demonstration from the Docutils Docs <reStructuredText-Demonstration>
-   Textroles/Index
-   ThisAndThat/Index
-   Typesetting/Index
-   1/index
    Sitemap/Index
+   Textroles/Index
+   Typesetting/Index
 

@@ -477,9 +477,10 @@ Makefile
 Markdown
 ========
 
-.. highlight:: markdown
+.. highlight:: guess
 
-::
+There is no dedicated lexer for 'markdown'.
+So let's see what happens for 'guess'::
 
    # hello world
 
