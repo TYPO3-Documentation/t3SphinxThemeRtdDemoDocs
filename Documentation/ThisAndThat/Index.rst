@@ -11,13 +11,13 @@ This And That
 Youtube
 =======
 
-Try 1: `.. youtube:: UdIYDZgBrQU`
+Code:
 
 .. youtube:: UdIYDZgBrQU
 
-Try 2: `.. youtube:: https://www.youtube.com/watch?v=UdIYDZgBrQU&t=4s`
+Result:
 
-.. youtube:: https://www.youtube.com/watch?v=UdIYDZgBrQU&t=4s
+.. youtube:: UdIYDZgBrQU
 
 
 
