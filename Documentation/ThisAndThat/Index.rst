@@ -13,11 +13,17 @@ Youtube
 
 Code:
 
-`.. youtube:: UdIYDZgBrQU`
+.. code-block:: rst
+
+   .. only:: html singlehtml
+   
+      .. youtube:: UdIYDZgBrQU
 
 Result:
 
-.. youtube:: UdIYDZgBrQU
+.. only:: html singlehtml
+   
+   .. youtube:: UdIYDZgBrQU
 
 
 
