@@ -6,9 +6,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=========
-Demo Docs
-=========
+==========================
+t3SphinxThemeRtd Demo Docs
+==========================
 
 :Status: WIP - work in progress
 :Description: See `A New Theme For Doc.TYPO3.Org <http://mbless.de/blog/2015/06/16/a-new-theme-for-docs-typo3-org.html>`__
