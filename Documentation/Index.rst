@@ -17,6 +17,7 @@ t3SphinxThemeRtd Demo Docs
 .. toctree::
    :hidden:
 
+   Sitemap/Index
    ThisAndThat/Index
    1/index
    Api/Index
@@ -30,7 +31,6 @@ t3SphinxThemeRtd Demo Docs
    StyledNumberedLists/Index
    Long/Index
    reStructuredText Demonstration from the Docutils Docs <reStructuredText-Demonstration>
-   Sitemap/Index
    Textroles/Index
    Typesetting/Index
 
