@@ -1,0 +1,9 @@
+{
+    "name": "typo3/demo-t3SphinxThemeRtd",
+    "type": "typo3-cms-documentation",
+    "description": "Examples for formatting text for the t3SphinxThemeRtd used in the official TYPO3 documentation",
+    "license": "OPL-1.0",
+    "require": {
+      "typo3/cms-core": "^9.5"
+    }
+}
