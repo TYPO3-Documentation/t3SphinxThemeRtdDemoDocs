@@ -8,24 +8,6 @@ This And That
 
 :ref:`Sitemap`
 
-Youtube
-=======
-
-Code:
-
-.. code-block:: rst
-
-   .. only:: html singlehtml
-   
-      .. youtube:: UdIYDZgBrQU
-
-Result:
-
-.. only:: html singlehtml
-   
-   .. youtube:: UdIYDZgBrQU
-
-
 
 Compact Lists
 =============
