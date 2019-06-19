@@ -163,7 +163,7 @@ CoffeeScript
    CoffeeScript subst test #{ 010 + 0xf / 0b10 + "nested string #{ /\n/ }"}
    """
 
-::
+.. code-block:: text
 
    ###
    CoffeeScript Compiler v1.2.0
