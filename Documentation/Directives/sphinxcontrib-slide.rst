@@ -7,90 +7,103 @@
 sphinxcontrib-slide
 ===================
 
-See https://github.com/TYPO3-Documentation/sphinx-contrib-slide/tree/develop
+Navigate this page:
 
+.. contents::
+   :class: compact-list
+   :local:
+   :depth: 3
+   :backlinks: top
 
-slide extension README
-=======================
+.. note:: For this page to work a version *newer than* v2.2.1 of the Docker
+          container is required.
 
-This is a sphinx extension for embedding your presentation slides.
+What is it?
+   This is a sphinx extension for embedding your presentation slides.
 
-This extension enable you to embed your slides on `slideshare
-<http://www.slideshare.net/>`_ and other sites.
-Possible urls are::
+Code
+   See https://github.com/TYPO3-Documentation/sphinx-contrib-slide
+   and branch `develop
+   <https://github.com/TYPO3-Documentation/sphinx-contrib-slide/tree/develop>`__.
 
-   Google:      https://docs.google.com/presentation/d/...
-   Google:      https://docs.google.com/presentation/pub?...
-   Slideshare:  http(s)://www.slideshare.net/...
-   Speakerdeck: https://speakerdeck.com/...
-   Slides.com:  http(s)://slides.com/...
+What can be embedded?
+   #. `Google docs <https://docs.google.com/>`_ documents
+   #. `Google docs`_ presentations
+   #. `Google docs`_ spreadsheets
+   #. `Slides.com <https://slides.com/>`_ presentations
+   #. `Slideshare <https://www.slideshare.net/>`_ presentations
+   #. `Speakerdeck <https://speakerdeck.com/>`_ presentations
 
+Syntax
+   `.. slide:: URL`
 
+   URL must be one of these::
 
-Example: slideshare.net
------------------------
+      https://docs.google.com/document/d/…
+      https://docs.google.com/presentation/d/…
+      https://docs.google.com/spreadsheets/d/…
+      https://slides.com/…          or http://…
+      https://speakerdeck.com/…
+      https://www.slideshare.net/…  or http://…
 
-Sample slideshow from the original README:
-https://www.slideshare.net/TakeshiKomiya/blockdiag-a-simple-diagram-generator
-
-Source::
-
-   .. slide:: https://www.slideshare.net/TakeshiKomiya/blockdiag-a-simple-diagram-generator
-
-Rendered:
-
-.. slide:: https://www.slideshare.net/TakeshiKomiya/blockdiag-a-simple-diagram-generator
-
-
-
-Example: google docs presentation
----------------------------------
-
-Link: https://docs.google.com/presentation/d/1FOVjpJIJrHC4Wly9rsGelDdfXe4bgamLOJh1GlVx2Tk/
-
-
-Source::
-
-   .. slide:: https://docs.google.com/presentation/d/1FOVjpJIJrHC4Wly9rsGelDdfXe4bgamLOJh1GlVx2Tk/
-
-Rendered:
-
-.. slide:: https://docs.google.com/presentation/d/1FOVjpJIJrHC4Wly9rsGelDdfXe4bgamLOJh1GlVx2Tk/
+Finding the URL
+   For Google docs go to ① "File", ② "Publish to the web", ③ and "Link"
+   or ④ copy the basic part of the link from your browser.
 
 
 
-Example: speakerdeck.com
-------------------------
+Example: google document
+========================
 
-Link: https://speakerdeck.com/helhum/your-perfect-typo3-distribution
+Link: https://docs.google.com/document/d/e/2PACX-1vR-lBF77A6YgK77uE8wzxFNbtxnS98I3DXSMW5qajO02QfkIc5vAdi10_iJMvXAmPJvv2Sedo_HllHE/pub
 
 Source::
 
-   .. slide:: https://speakerdeck.com/helhum/your-perfect-typo3-distribution
+   .. slide:: https://docs.google.com/document/d/e/2PACX-1vR-lBF77A6YgK77uE8wzxFNbtxnS98I3DXSMW5qajO02QfkIc5vAdi10_iJMvXAmPJvv2Sedo_HllHE/pub
 
 Rendered:
 
-.. slide:: https://speakerdeck.com/helhum/your-perfect-typo3-distribution
+.. slide:: https://docs.google.com/document/d/e/2PACX-1vR-lBF77A6YgK77uE8wzxFNbtxnS98I3DXSMW5qajO02QfkIc5vAdi10_iJMvXAmPJvv2Sedo_HllHE/pub
 
 
-Example: speakerdeck.com
-------------------------
 
-Link: https://speakerdeck.com/oliverklee/test-driven-development-with-phpunit-1
+
+Example: google presentation
+============================
+
+
+Link: https://docs.google.com/presentation/d/1FOVjpJIJrHC4Wly9rsGelDdfXe4bgamLOJh1GlVx2Tk
 
 Source::
 
-   .. slide:: https://speakerdeck.com/oliverklee/test-driven-development-with-phpunit-1
+   .. slide:: https://docs.google.com/presentation/d/1FOVjpJIJrHC4Wly9rsGelDdfXe4bgamLOJh1GlVx2Tk
 
 Rendered:
 
-.. slide:: https://speakerdeck.com/oliverklee/test-driven-development-with-phpunit-1
+.. slide:: https://docs.google.com/presentation/d/1FOVjpJIJrHC4Wly9rsGelDdfXe4bgamLOJh1GlVx2Tk
+
+
+
+
+
+Example: google docs spreadsheet
+================================
+
+Link: https://docs.google.com/spreadsheets/d/e/2PACX-1vRBBypnQdGwdTCq6Xz2EJyySm1v_Q0XndMlmFwHgjBAbxHuVQGNgch3qr9neSX66GjSAA_x8tZldqD5/pubhtml
+
+Source::
+
+   .. slide:: https://docs.google.com/spreadsheets/d/e/2PACX-1vRBBypnQdGwdTCq6Xz2EJyySm1v_Q0XndMlmFwHgjBAbxHuVQGNgch3qr9neSX66GjSAA_x8tZldqD5/pubhtml
+
+Rendered:
+
+.. slide:: https://docs.google.com/spreadsheets/d/e/2PACX-1vRBBypnQdGwdTCq6Xz2EJyySm1v_Q0XndMlmFwHgjBAbxHuVQGNgch3qr9neSX66GjSAA_x8tZldqD5/pubhtml
 
 
 
 
 Example: slides.com
--------------------
+===================
 
 Link: https://slides.com/bolajiayodeji/introduction-to-version-control-with-git-and-github
 
@@ -105,16 +118,33 @@ Rendered:
 
 
 
-Directive
-=========
 
-.. describe:: .. slide:: [URL]
+Example: slideshare.net
+=======================
 
-   This directive insert slide interface into the generated document.
-   sphinxcontrib-slide supports presentations on
+Link: https://www.slideshare.net/TedTalks/physics-45280434
 
-   * slideshare
-   * googledocs
-   * speakerdeck
-   * slides.com
+Source::
+
+   .. slide:: https://www.slideshare.net/TedTalks/physics-45280434
+
+Rendered:
+
+.. slide:: https://www.slideshare.net/TedTalks/physics-45280434
+
+
+
+
+Example: speakerdeck.com
+========================
+
+Link: https://speakerdeck.com/oliverklee/test-driven-development-with-phpunit-1
+
+Source::
+
+   .. slide:: https://speakerdeck.com/oliverklee/test-driven-development-with-phpunit-1
+
+Rendered:
+
+.. slide:: https://speakerdeck.com/oliverklee/test-driven-development-with-phpunit-1
 
