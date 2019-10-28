@@ -82,7 +82,10 @@ Using text roles
    ================== ================================================= ============================================ ===
 
 
-Glossary:
+*Glossary* to define some demo terms
+
+This is a small demo glossary to allow the `:term:` text role in the above
+examples.
 
 .. glossary::
 
