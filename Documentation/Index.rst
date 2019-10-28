@@ -14,11 +14,20 @@ See `_buildinfo <_buildinfo>`_
 
 :Rendered: |today|
 
+.. rst-class:: compact-list
 .. toctree::
-   :hidden:
+   :caption: Caption 1
 
    Sitemap/Index
+   genindex
+   inline-code-and-text-roles
    ThisAndThat/Index
+
+.. rst-class:: compact-list
+.. toctree::
+   :titlesonly:
+   :caption: Caption 2
+
    1/index
    Api/Index
    Codeblocks/Index
@@ -30,6 +39,13 @@ See `_buildinfo <_buildinfo>`_
    Lists/Index
    ListsAsButtons/Index
    StyledNumberedLists/Index
+
+
+.. rst-class:: compact-list
+.. toctree::
+   :titlesonly:
+   :caption: Caption 3
+
    Long/Index
    reStructuredText Demonstration from the Docutils Docs <reStructuredText-Demonstration>
    Textroles/Index
