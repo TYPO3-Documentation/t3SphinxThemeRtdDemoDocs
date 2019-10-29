@@ -20,6 +20,7 @@ See `_buildinfo <_buildinfo>`_
 
    Sitemap/Index
    genindex
+   Directives/Index
    inline-code-and-text-roles
    ThisAndThat/Index
 
@@ -31,7 +32,6 @@ See `_buildinfo <_buildinfo>`_
    1/index
    Api/Index
    Codeblocks/Index
-   Directives/Index
    Fonts/Index
    Highlighting/Index
    ImagesAndFigures/Index
