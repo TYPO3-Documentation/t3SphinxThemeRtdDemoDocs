@@ -11,13 +11,11 @@ TYPO3 Docker rendering container has this directived disabled as it
 represents a security hole. So this might suggest that it's useless to keep
 example showing the raw directive. However, this is not quite true.
 
-We'll keep examples for the raw directive here because it is and easy check
-that of whether the directive is disabled - for public rendering on the server.
-In that case the raw directives should fail, which means no output but a
-warning.
+We'll keep examples for the raw directive here because it is an easy check
+to verify that the directive is really turn off.
 
-For local use we will have an option in the :file:`jobfile.json` file that
-enables the raw directive so that the following examples make sense.
+Secondly there'll be an option for the jobfile.json to enable the raw directive
+in case of local renderings.
 
 
 
