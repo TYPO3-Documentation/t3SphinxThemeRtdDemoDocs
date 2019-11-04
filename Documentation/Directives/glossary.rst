@@ -4,7 +4,7 @@
 .. _Glossary:
 
 =========================
-Glossary
+glossary
 =========================
 
 See https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#glossary

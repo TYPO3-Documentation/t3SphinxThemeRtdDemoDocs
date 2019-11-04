@@ -3,7 +3,7 @@
 .. _sphinxcontrib-PHP-Domain:
 
 ========================
-sphinxcontrib-PHP-Domain
+sphinxcontrib-phpdomain
 ========================
 
 See https://pythonhosted.org/sphinxcontrib-phpdomain/
