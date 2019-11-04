@@ -8,8 +8,8 @@ sphinxcontrib-t3fieldlisttable
 
 See https://github.com/TYPO3-Documentation/sphinxcontrib.t3fieldlisttable/tree/develop
 
-Learning by example: The "t3-t3-field-list-table" directive
-===========================================================
+Learning by example: The "t3-field-list-table" directive
+========================================================
 
 The most simple form
 --------------------
@@ -20,7 +20,7 @@ Source
 ~~~~~~
 ::
 
-   .. t3-t3-field-list-table::
+   .. t3-field-list-table::
 
     * :a: Cell A
 
