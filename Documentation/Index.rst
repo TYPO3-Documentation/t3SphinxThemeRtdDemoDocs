@@ -13,6 +13,10 @@ t3SphinxThemeRtd Demo Docs
 This repository demonstrates how reST constructs look like when rendered with
 the `t3SphinxThemeRtd <https://github.com/TYPO3-Documentation/t3SphinxThemeRtd>`__ theme.
 
+.. important::
+
+   Due to some included extensions in Settings.cfg, this will not render with
+   oder versions of the Docker image.
 
 See `_buildinfo <_buildinfo>`_
 
