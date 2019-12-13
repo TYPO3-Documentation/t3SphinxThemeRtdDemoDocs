@@ -10,6 +10,10 @@
 t3SphinxThemeRtd Demo Docs
 ==========================
 
+This repository demonstrates how reST constructs look like when rendered with
+the `t3SphinxThemeRtd <https://github.com/TYPO3-Documentation/t3SphinxThemeRtd>`__ theme.
+
+
 See `_buildinfo <_buildinfo>`_
 
 :Rendered: |today|
