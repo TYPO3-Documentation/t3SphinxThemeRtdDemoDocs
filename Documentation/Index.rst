@@ -16,7 +16,7 @@ the `t3SphinxThemeRtd <https://github.com/TYPO3-Documentation/t3SphinxThemeRtd>`
 .. important::
 
    Due to some included extensions in Settings.cfg, this will not render with
-   oder versions of the Docker image.
+   older versions of the Docker image.
 
 See `_buildinfo <_buildinfo>`_
 
