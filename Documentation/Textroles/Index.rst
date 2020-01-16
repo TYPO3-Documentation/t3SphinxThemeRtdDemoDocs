@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 =========
 Textroles
@@ -40,10 +40,10 @@ Standard Sphinx and Docutils Textroles
 Self Defined Textroles
 ======================
 
-In file :file:`Includes.txt` we usually have::
+In file :file:`/Includes.rst.txt` we usually have::
 
-   .. This is 'Includes.txt'. It is included at the very top of each and
-      every ReST source file in THIS documentation project (= manual).
+   .. This is '/Includes.rst.txt'. It is included at the very top of each
+      and every ReST source file in THIS documentation project (= manual).
 
    .. role:: aspect (emphasis)
    .. role:: html(code)

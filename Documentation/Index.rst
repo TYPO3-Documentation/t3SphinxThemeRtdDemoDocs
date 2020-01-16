@@ -1,4 +1,4 @@
-.. include:: Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. Sphinx RTD theme demo documentation master file, created by

@@ -1,4 +1,4 @@
-.. include:: Includes.txt
+.. include:: /Includes.txt
 .. highlight:: rst
 
 .. _Inline-code-and-text-roles:
@@ -26,7 +26,7 @@ Using text roles
    ================ ================================================= ============================================ ===
    Role             Source                                            Output                                       Note
    ================ ================================================= ============================================ ===
-   (default)        ```result = (1 + x) * 32```                       `result = (1 + x) * 32`                      This works because in :file:`Includes.txt` we set the default role to ``:code:`...```
+   (default)        ```result = (1 + x) * 32```                       `result = (1 + x) * 32`                      This works because in :file:`/Includes.rst.txt` we set the default role to ``:code:`...```
 
    aspect           ``:aspect:`Description:```                        :aspect:`Description:`                       For better optics
    html             ``:html:`<a href="#">```                          :html:`<a href="#">`
