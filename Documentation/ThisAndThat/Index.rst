@@ -26,23 +26,8 @@ Here is another:
     \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
 
 
-Giant tables
-============
-
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  |
-+============+============+===========+============+============+===========+============+============+===========+============+============+===========+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-
 Optional parameter args
------------------------
+=======================
 
 At this point optional parameters `cannot be generated from code`_.
 However, some projects will manually do it, like so:
@@ -606,38 +591,3 @@ with the link-parameters (lowercased)!
 
 
 .. ###### END~OF~TABLE ######
-
-
-
-
-
-
-
-
-
-
-Tables
-======
-
-.. t3-field-list-table::
- :header-rows: 1
-
- - :a: Demo A
-   :b: Demo B
-   :c: Demo C
-   :d: Demo D
-
- - :a: a
-   :b: b
-   :c: c
-   :d: d
-
- - :a: a
-   :b: b
-   :c: c
-   :d: d
-
- - :a: a
-   :b: b
-   :c: c
-   :d: d

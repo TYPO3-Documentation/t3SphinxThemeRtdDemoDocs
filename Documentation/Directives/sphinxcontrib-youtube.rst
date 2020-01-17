@@ -16,13 +16,13 @@ Code:
 
 .. code-block:: rst
 
-   .. only:: html singlehtml
+   .. only:: html or singlehtml
 
       .. youtube:: UdIYDZgBrQU
 
 Result:
 
-.. only:: html singlehtml
+.. only:: html or singlehtml
 
    .. youtube:: UdIYDZgBrQU
 

@@ -31,13 +31,13 @@ See `_buildinfo <_buildinfo>`_
    Directives/Index
    inline-code-and-text-roles
    ThisAndThat/Index
+   Nested-pages/index
 
 .. rst-class:: compact-list
 .. toctree::
    :titlesonly:
    :caption: Caption 2
 
-   1/index
    Api/Index
    Codeblocks/Index
    Fonts/Index
@@ -47,6 +47,7 @@ See `_buildinfo <_buildinfo>`_
    Lists/Index
    ListsAsButtons/Index
    StyledNumberedLists/Index
+   Tables/Index
 
 
 .. rst-class:: compact-list

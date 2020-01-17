@@ -7,13 +7,11 @@ Highlighting
 
 Examples taken from https://highlightjs.org/static/demo/
 
-
-Navigate this page:
-
-.. contents::
-   :local:
-   :depth: 3
+.. contents:: This page
    :backlinks: top
+   :class: compact-list
+   :depth: 3
+   :local:
 
 
 .. attention::
@@ -118,50 +116,6 @@ Bash
    }
 
 
-CoffeeScript
-============
-
-.. highlight:: coffeescript
-
-::
-
-   grade = (student, period=(if b? then 7 else 6), messages={"A": "Excellent"}) ->
-     if student.excellentWork
-       "A+"
-     else if student.okayStuff
-       if student.triedHard then "B" else "B-"
-     else
-       "C"
-
-::
-
-   square = (x) -> x * x
-
-   two = -> 2
-
-   math =
-     root:   Math.sqrt
-     square: square
-     cube:   (x) -> x * square x
-
-   race = (winner, runners...) ->
-     print winner, runners
-
-::
-
-   class Animal extends Being
-     constructor: (@name) ->
-
-     move: (meters) ->
-       alert @name + " moved #{meters}m."
-
-   hi = `function() {
-     return [document.title, "Hello JavaScript"].join(": ");
-   }`
-
-   heredoc = """
-   CoffeeScript subst test #{ 010 + 0xf / 0b10 + "nested string #{ /\n/ }"}
-   """
 
 .. code-block:: text
 

@@ -57,7 +57,7 @@ You can easily link to the description of a 'confval' by means of the
 `:confval:` text role. Example: Here is a link to :confval:`mr_pommeroy`.
 
 **Note** that `:default:` has become 'Default:' and `:type:` has become
-'Type:`.
+'Type:'.
 
 
 

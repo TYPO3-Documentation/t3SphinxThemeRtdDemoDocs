@@ -6,8 +6,15 @@
 Images And Figures
 ==================
 
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 3
+   :local:
+
+
 Image float left
-----------------
+================
 
 .. |example-teaser-left| image:: ../images/loremipsum/a4.jpg
    :alt: Left floating image
@@ -54,7 +61,7 @@ visual display.
 
 
 Images of Series A
-------------------
+==================
 
 .. image:: ../images/loremipsum/a1.jpg
    :alt: Image a1
@@ -77,8 +84,10 @@ Images of Series A
 .. image:: ../images/loremipsum/a7.jpg
    :alt: Image a7
 
+
+
 Images of Series A with border
-------------------------------
+==============================
 
 .. image:: ../images/loremipsum/a1.jpg
    :alt: Image a1
@@ -110,7 +119,7 @@ Images of Series A with border
 
 
 Images of Series A with shadow
-------------------------------
+==============================
 
 .. image:: ../images/loremipsum/a1.jpg
    :alt: Image a1
@@ -141,8 +150,9 @@ Images of Series A with shadow
    :class: with-shadow
 
 
+
 Images of Series B
-------------------
+==================
 
 |b1| |b2| |b3| |b4| |b5| |b6| |b7|
 
@@ -163,7 +173,7 @@ Images of Series B
 
 
 Figures of Series C
--------------------
+===================
 
 .. figure:: ../images/loremipsum/c1.jpg
    :alt: figure c1
@@ -199,9 +209,11 @@ Figures of Series C
    :alt: figure c7
 
    Here you see c7
+
+
 
 Figures of Series C with border
--------------------------------
+===============================
 
 .. figure:: ../images/loremipsum/c1.jpg
    :alt: figure c1
@@ -244,10 +256,11 @@ Figures of Series C with border
    :class: with-border
 
    Here you see c7
+
 
 
 Figures of Series C with shadow
--------------------------------
+===============================
 
 .. figure:: ../images/loremipsum/c1.jpg
    :alt: figure c1
@@ -292,8 +305,9 @@ Figures of Series C with shadow
    Here you see c7
 
 
+
 Figures of Series D
--------------------
+===================
 
 .. figure:: ../images/loremipsum/d1.jpg
    :alt: figure d1

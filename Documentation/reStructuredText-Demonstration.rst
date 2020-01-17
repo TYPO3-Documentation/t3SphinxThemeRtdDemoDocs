@@ -377,8 +377,9 @@ refer to the Targets_ section.
 
 __ Targets_
 
-Here's a `hyperlink reference without a target`_, which generates an
-error.
+.. DISABLED
+   Here's a `hyperlink reference without a target`_, which generates an
+   error.
 
 Duplicate Target Names
 ``````````````````````
@@ -392,7 +393,11 @@ Duplicate Target Names
 
 Since there are two "Duplicate Target Names" section headers, we
 cannot uniquely refer to either of them by name.  If we try to (like
-this: `Duplicate Target Names`_), an error is generated.
+this::
+
+   `Duplicate Target Names`_),
+
+an error is generated.
 
 Directives
 ----------
@@ -567,11 +572,13 @@ Error Handling
 
 Any errors caught during processing will generate system messages.
 
-|*** Expect 6 errors (including this one). ***|
+Disabled, because we don't want errors in t3SphinxThemeRtdDemoDocs::
 
-There should be six messages in the following, auto-generated
-section, "Docutils System Messages":
+   |*** Expect 6 errors (including this one). ***|
 
-.. section should be added by Docutils automatically
+   There should be six messages in the following, auto-generated
+   section, "Docutils System Messages":
+
+   .. section should be added by Docutils automatically
 
 demo.rst from: http://docutils.sourceforge.net/docs/user/rst/demo.txt

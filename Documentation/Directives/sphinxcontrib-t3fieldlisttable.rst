@@ -1,6 +1,6 @@
 .. include:: /Includes.rst.txt
 
-.. _sphinxcontrib--t3fieldlisttable:
+.. _sphinxcontrib-t3fieldlisttable:
 
 ==============================
 sphinxcontrib-t3fieldlisttable
