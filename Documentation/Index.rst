@@ -29,7 +29,7 @@ See `_buildinfo <_buildinfo>`_
    Sitemap/Index
    genindex
    Directives/Index
-   inline-code-and-text-roles
+   Inline-code-and-textroles/Index
    ThisAndThat/Index
    Nested-pages/index
 
@@ -38,6 +38,7 @@ See `_buildinfo <_buildinfo>`_
    :titlesonly:
    :caption: Caption 2
 
+   Admonitions-and-buttons/Index
    Api/Index
    Codeblocks/Index
    Fonts/Index
