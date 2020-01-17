@@ -1,9 +1,18 @@
 .. include:: /Includes.rst.txt
 
-=============
-Demo of Lists
-=============
+=====
+Lists
+=====
 
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 3
+   :local:
+
+
+Lists within admonitions
+========================
 
 .. important::
 
@@ -21,8 +30,8 @@ Demo of Lists
           hi
 
 
-A list
-======
+A demo list
+===========
 
 - here
 
@@ -38,8 +47,9 @@ A list
 - ``inline literal``
 - ``inline literal``
 
-Another list
-============
+
+Another demo list
+=================
 
 1. Typesetting is the composition of text by means of arranging physical
    types[1] or the digital equivalents. Stored letters and other symbols
@@ -96,8 +106,8 @@ Another list
 
 
 
-Second list level
------------------
+Third demo list
+===============
 
 - here is a list in a second-level section.
 - `yahoo <http://www.yahoo.com>`_
@@ -119,8 +129,9 @@ Second list level
   - ``hi``
 - and hehe
 
+
 But deeper down the rabbit hole
-"""""""""""""""""""""""""""""""
+===============================
 
 - I kept saying that, "deeper down the rabbit hole". `yahoo <http://www.yahoo.com>`_
 
@@ -132,4 +143,69 @@ But deeper down the rabbit hole
 
     - `yahoo <http://www.yahoo.com>`_ ``hi``
     - ``destiny``
+
+
+.. index:: css; compact-list
+
+Compact Lists
+=============
+
+Keywords: css, compact-list
+
+Add CSS class `compact-list` to lists to get `li` tags with `margin-top:0; margin-bottom:0`.
+
+In case of a normal list:
+
+.. code-block:: rst
+
+   .. rst-class:: compact-list
+
+   -  abc
+   -  bcd
+   -  cde
+
+Should look like:
+
+.. rst-class:: compact-list
+
+-  abc
+-  bcd
+-  cde
+
+
+Or, for example:
+
+.. code-block:: rst
+
+   .. rst-class:: compact-list
+
+   1. one
+   2. two
+   3. three
+
+Should look like:
+
+.. rst-class:: compact-list
+
+1. one
+2. two
+3. three
+
+
+In case of `.. toctree::`:
+
+.. code-block:: rst
+
+   .. rst-class:: compact-list
+   .. troctree::
+
+      Abc/Index
+      Bcd/Index
+
+In case of `.. contents::`:
+
+.. code-block:: rst
+
+   .. contents::
+      :class: compact-list
 
