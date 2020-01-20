@@ -28,18 +28,8 @@ See `_buildinfo <_buildinfo>`_
 
    Sitemap/Index
    genindex
-   Directives/Index
-   Inline-code-and-textroles/Index
-   ThisAndThat/Index
-   Nested-pages/index
-
-.. rst-class:: compact-list
-.. toctree::
-   :titlesonly:
-   :caption: Caption 2
-
    Admonitions-and-buttons/Index
-   Api/Index
+   Blockquotes/Index
    Codeblocks/Index
    Fonts/Index
    Highlighting/Index
@@ -50,6 +40,16 @@ See `_buildinfo <_buildinfo>`_
    StyledNumberedLists/Index
    Tables/Index
 
+.. rst-class:: compact-list
+.. toctree::
+   :titlesonly:
+   :caption: Caption 2
+
+   Api/Index
+   Directives/Index
+   Inline-code-and-textroles/Index
+   ThisAndThat/Index
+   Nested-pages/index
 
 .. rst-class:: compact-list
 .. toctree::
@@ -58,6 +58,5 @@ See `_buildinfo <_buildinfo>`_
 
    Long/Index
    reStructuredText Demonstration from the Docutils Docs <reStructuredText-Demonstration>
-   Textroles/Index
    Typesetting/Index
 
