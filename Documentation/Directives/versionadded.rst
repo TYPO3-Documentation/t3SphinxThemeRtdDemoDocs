@@ -15,6 +15,7 @@ versionadded
    .. versionadded:: 2.5
       The *spam* parameter
    .. versionadded:: 2.1
+
 versionchanged
    .. versionchanged:: 8.7
 
@@ -24,7 +25,7 @@ versionchanged
 
 deprecated
    .. deprecated:: 3.1
-      Use :func:`spam` instead.
+      Use function `spam` instead.
 
    .. deprecated:: 2.7
 

@@ -47,7 +47,7 @@ html             ``:html:`<a href="#">```                          :html:`<a hre
 issue            ``:issue:`12345```                                :issue:`12345`                               To link to a TYPO3 issue.
 js               ``:js:`var f = function () {return 1;}```         :js:`var f = function () {return 1;}`
 php              ``:php:`$result = $a + 23;```                     :php:`$result = $a + 23;`
-sep              ``:sep:`|```                                      :sep:`|`                                     To give the separator '\|' a special style in some contexts like :ref:`Styled-Definition-Lists`
+sep              ``:sep:`|```                                      :sep:`|`                                     To give the separator '\|' a special style in some contexts like ``:ref:`Styled-Definition-Lists```
 ts               ``:ts:`lib.hello.value = Hello World!```          :ts:`lib.hello.value = Hello World!`
 typoscript       ``:typoscript:`lib.hello.value = Hello World!```  :typoscript:`lib.hello.value = Hello World!`
 yaml             ``:yaml:`- {name: John Smith, age: 33}```         :yaml:`- {name: John Smith, age: 33}`

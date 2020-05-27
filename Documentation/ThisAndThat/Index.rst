@@ -154,7 +154,7 @@ If I type ````an inline literal```` it will wrap it in ``<tt>``. You can
 see more details on the `Inline Markup`_ on the Docutils homepage.
 
 Also with ``sphinx.ext.autodoc``, which I use in the demo, I can link to
-:class:`test_py_module.test.Foo`. It will link you right my code
+``:class:`test_py_module.test.Foo```. It will link you right my code
 documentation for it.
 
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html

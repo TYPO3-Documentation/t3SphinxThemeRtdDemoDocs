@@ -45,7 +45,6 @@ See `_buildinfo <_buildinfo>`_
    :titlesonly:
    :caption: Caption 2
 
-   Api/Index
    Directives/Index
    Inline-code-and-textroles/Index
    ThisAndThat/Index

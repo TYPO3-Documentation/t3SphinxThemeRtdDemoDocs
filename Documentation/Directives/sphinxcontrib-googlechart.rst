@@ -1,6 +1,4 @@
-
 .. include:: /Includes.rst.txt
-
 .. _sphinxcontrib-googlechart:
 
 =========================
@@ -70,7 +68,9 @@ Directive
          rabbit: 40
          rabbit.color: 0000ff
 
-   .. piechart::
+   **DISABLED in 2020** since Google now reports an error.
+
+   .. DISABLED piechart::
 
       dog: 100
       dog.color: ff0000
@@ -210,7 +210,9 @@ Directive
          car: 40, 50, 60, 45
          car.color: 0000ff
 
-   .. holizontal_barchart::
+   **DISABLED in 2020** since Google now reports an error.
+
+   .. DISABLED holizontal_barchart::
 
       bicycle: 15, 25, 20, 30
       bicycle.color: ff0000
@@ -236,7 +238,10 @@ Directive
          car: 40, 50, 60, 45
          car.color: 0000ff
 
-   .. vertical_barchart::
+
+   **DISABLED in 2020** since Google now reports an error.
+
+   .. DISABLED vertical_barchart::
 
       bicycle: 15, 25, 20, 30
       bicycle.color: ff0000
@@ -353,12 +358,15 @@ Directive
          KR: "Republic of Korea"
          KR.color: 0000ff
 
-   .. mapchart::
+   **DISABLED in 2020** since Google now reports an error.
+
+   .. DISABLED mapchart::
 
       data: CN, JP, KR
       color: ff0000, 00ff00, 0000ff
 
-   .. mapchart::
+
+   .. DISABLED mapchart::
 
       CN: "People's Republic of China"
       CN.color: ff0000

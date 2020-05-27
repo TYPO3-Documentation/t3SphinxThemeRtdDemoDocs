@@ -6,8 +6,16 @@
 raw
 =========================
 
-There are valid usecases for the 'raw' directive. The configuration of the
-TYPO3 Docker rendering container has this directived disabled as it
+.. attention::
+
+   Keep this page!
+
+   If the raw directive is disabled it verifies that fact. Otherwise it
+   demonstrates what the raw directive can do.
+
+
+There are valid use cases for the 'raw' directive. The configuration of the
+TYPO3 Docker rendering container has this directive disabled as it
 represents a security hole. So this might suggest that it's useless to keep
 example showing the raw directive. However, this is not quite true.
 
