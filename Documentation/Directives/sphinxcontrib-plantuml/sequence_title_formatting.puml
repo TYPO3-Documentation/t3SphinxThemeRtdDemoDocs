@@ -1,0 +1,8 @@
+@startuml
+
+title __More information__ _on_ titles
+
+Alice -> Bob: Authentication Request
+Bob -> Alice: Authentication Response
+
+@enduml
