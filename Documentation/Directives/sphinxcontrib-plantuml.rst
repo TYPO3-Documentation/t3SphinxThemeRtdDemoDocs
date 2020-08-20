@@ -108,6 +108,26 @@ Deployment diagram - Packages
 .. uml:: sphinxcontrib-plantuml/deployment_packages.puml
 
 
+Icons
+=====
+
+Docs: https://plantuml.com/stdlib
+
+.. note::
+   The PlantUML Standard Library including its large icon sets is not available
+   yet in PlantUML v2017.15 which is used in the current TYPO3 documentation
+   rendering process. To use its icons nevertheless, we have to include the
+   icons by remote url.
+
+Icons - TYPO3 from remote Devicons
+----------------------------------
+.. uml:: sphinxcontrib-plantuml/icons_typo3_devicons.puml
+
+Icons - TYPO3 from remote FontAwesome 5
+---------------------------------------
+.. uml:: sphinxcontrib-plantuml/icons_typo3_fontawesome5.puml
+
+
 Maths
 =====
 
