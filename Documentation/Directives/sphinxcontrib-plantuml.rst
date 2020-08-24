@@ -17,6 +17,7 @@ Source:
 .. code-block:: rst
 
     .. uml::
+        :caption: Inline diagram
 
         Bob -> Alice : hello
         Alice -> Bob : ok
@@ -24,9 +25,22 @@ Source:
 Rendered:
 
 .. uml::
+    :caption: Inline diagram
 
     Bob -> Alice : hello
     Alice -> Bob : ok
+
+Source:
+
+.. code-block:: rst
+
+    .. uml:: sphinxcontrib-plantuml/external.plum
+        :caption: Diagram from external PlantUML file
+
+Rendered:
+
+.. uml:: sphinxcontrib-plantuml/external.plum
+    :caption: Diagram from external PlantUML file
 
 
 .. contents:: This page contains example diagrams:
