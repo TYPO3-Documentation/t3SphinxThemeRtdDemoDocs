@@ -41,7 +41,7 @@ Activity diagram
 
 Docs: https://plantuml.com/activity-diagram-legacy
 
-.. uml:: sphinxcontrib-plantuml/activity.puml
+.. include:: sphinxcontrib-plantuml/activity.rst.txt
 
 
 Class diagram
@@ -51,35 +51,35 @@ Docs: https://plantuml.com/class-diagram
 
 Class diagram - Label on relations
 ----------------------------------
-.. uml:: sphinxcontrib-plantuml/class_label_on_relations.puml
+.. include:: sphinxcontrib-plantuml/class_label_on_relations.rst.txt
 
 Class diagram - Label on relations 2
 ------------------------------------
-.. uml:: sphinxcontrib-plantuml/class_label_on_relations_2.puml
+.. include:: sphinxcontrib-plantuml/class_label_on_relations_2.rst.txt
 
 Class diagram - Defining visibility
 -----------------------------------
-.. uml:: sphinxcontrib-plantuml/class_visibility.puml
+.. include:: sphinxcontrib-plantuml/class_visibility.rst.txt
 
 Class diagram - Abstract and Static
 -----------------------------------
-.. uml:: sphinxcontrib-plantuml/class_abstract.puml
+.. include:: sphinxcontrib-plantuml/class_abstract.rst.txt
 
 Class diagram - Advanced class body
 -----------------------------------
-.. uml:: sphinxcontrib-plantuml/class_advanced.puml
+.. include:: sphinxcontrib-plantuml/class_advanced.rst.txt
 
 Class diagram - Use generics
 ----------------------------
-.. uml:: sphinxcontrib-plantuml/class_generics.puml
+.. include:: sphinxcontrib-plantuml/class_generics.rst.txt
 
 Class diagram - Packages style
 ------------------------------
-.. uml:: sphinxcontrib-plantuml/class_packages.puml
+.. include:: sphinxcontrib-plantuml/class_packages.rst.txt
 
 Class diagram - Abstract class and interface
 --------------------------------------------
-.. uml:: sphinxcontrib-plantuml/class_abstract_2.puml
+.. include:: sphinxcontrib-plantuml/class_abstract_2.rst.txt
 
 
 Component diagram
@@ -87,7 +87,7 @@ Component diagram
 
 Docs: https://plantuml.com/component-diagram
 
-.. uml:: sphinxcontrib-plantuml/component.puml
+.. include:: sphinxcontrib-plantuml/component.rst.txt
 
 
 Deployment diagram
@@ -97,15 +97,15 @@ Docs: https://plantuml.com/deployment-diagram
 
 Deployment diagram - Elements
 -----------------------------
-.. uml:: sphinxcontrib-plantuml/deployment_elements.puml
+.. include:: sphinxcontrib-plantuml/deployment_elements.rst.txt
 
 Deployment diagram - Linking
 ----------------------------
-.. uml:: sphinxcontrib-plantuml/deployment_linking.puml
+.. include:: sphinxcontrib-plantuml/deployment_linking.rst.txt
 
 Deployment diagram - Packages
 -----------------------------
-.. uml:: sphinxcontrib-plantuml/deployment_packages.puml
+.. include:: sphinxcontrib-plantuml/deployment_packages.rst.txt
 
 
 Icons
@@ -121,11 +121,11 @@ Docs: https://plantuml.com/stdlib
 
 Icons - TYPO3 from remote Devicons
 ----------------------------------
-.. uml:: sphinxcontrib-plantuml/icons_typo3_devicons.puml
+.. include:: sphinxcontrib-plantuml/icons_typo3_devicons.rst.txt
 
 Icons - TYPO3 from remote FontAwesome 5
 ---------------------------------------
-.. uml:: sphinxcontrib-plantuml/icons_typo3_fontawesome5.puml
+.. include:: sphinxcontrib-plantuml/icons_typo3_fontawesome5.rst.txt
 
 
 Maths
@@ -135,11 +135,11 @@ Docs: https://plantuml.com/ascii-math
 
 Maths - Diagram 1
 -----------------
-.. uml:: sphinxcontrib-plantuml/maths_1.puml
+.. include:: sphinxcontrib-plantuml/maths_1.rst.txt
 
 Maths - Diagram 2
 -----------------
-.. uml:: sphinxcontrib-plantuml/maths_2.puml
+.. include:: sphinxcontrib-plantuml/maths_2.rst.txt
 
 
 Misc
@@ -147,7 +147,7 @@ Misc
 
 Docs: https://plantuml.com/link | https://plantuml.com/sequence-diagram
 
-.. uml:: sphinxcontrib-plantuml/misc.puml
+.. include:: sphinxcontrib-plantuml/misc.rst.txt
 
 
 Object diagram
@@ -157,11 +157,11 @@ Docs: https://plantuml.com/object-diagram
 
 Object diagram - Relations
 --------------------------
-.. uml:: sphinxcontrib-plantuml/object_relations.puml
+.. include:: sphinxcontrib-plantuml/object_relations.rst.txt
 
 Object diagram - Fields
 -----------------------
-.. uml:: sphinxcontrib-plantuml/object_fields.puml
+.. include:: sphinxcontrib-plantuml/object_fields.rst.txt
 
 
 Sequence diagram
@@ -171,59 +171,59 @@ Docs: https://plantuml.com/sequence-diagram
 
 Sequence diagram - Declaring participants
 -----------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_declaring.puml
+.. include:: sphinxcontrib-plantuml/sequence_declaring.rst.txt
 
 Sequence diagram - Non-letters in participants
 ----------------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_nonletters.puml
+.. include:: sphinxcontrib-plantuml/sequence_nonletters.rst.txt
 
 Sequence diagram - Multiline
 ----------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_multiline.puml
+.. include:: sphinxcontrib-plantuml/sequence_multiline.rst.txt
 
 Sequence diagram - Message sequence numbering
 ---------------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_numbering.puml
+.. include:: sphinxcontrib-plantuml/sequence_numbering.rst.txt
 
 Sequence diagram - Splitting diagrams
 -------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_splitting.puml
+.. include:: sphinxcontrib-plantuml/sequence_splitting.rst.txt
 
 Sequence diagram - Grouping message
 -----------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_grouping.puml
+.. include:: sphinxcontrib-plantuml/sequence_grouping.rst.txt
 
 Sequence diagram - Notes on messages
 ------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_notes.puml
+.. include:: sphinxcontrib-plantuml/sequence_notes.rst.txt
 
 Sequence diagram - Divider
 --------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_divider.puml
+.. include:: sphinxcontrib-plantuml/sequence_divider.rst.txt
 
 Sequence diagram - Reference
 ----------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_reference.puml
+.. include:: sphinxcontrib-plantuml/sequence_reference.rst.txt
 
 Sequence diagram - Delay
 ------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_delay.puml
+.. include:: sphinxcontrib-plantuml/sequence_delay.rst.txt
 
 Sequence diagram - Lifeline
 ---------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_lifeline.puml
+.. include:: sphinxcontrib-plantuml/sequence_lifeline.rst.txt
 
 Sequence diagram - Stereotypes and Spots
 ----------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_stereotypes.puml
+.. include:: sphinxcontrib-plantuml/sequence_stereotypes.rst.txt
 
 Sequence diagram - Titles
 -------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_title_formatting.puml
+.. include:: sphinxcontrib-plantuml/sequence_title_formatting.rst.txt
 
 Sequence diagram - Participants encompass
 -----------------------------------------
-.. uml:: sphinxcontrib-plantuml/sequence_encompass.puml
+.. include:: sphinxcontrib-plantuml/sequence_encompass.rst.txt
 
 
 State diagram
@@ -233,19 +233,19 @@ Docs: https://plantuml.com/state-diagram
 
 State diagram - Composite state
 -------------------------------
-.. uml:: sphinxcontrib-plantuml/state_composite.puml
+.. include:: sphinxcontrib-plantuml/state_composite.rst.txt
 
 State diagram - Fork
 --------------------
-.. uml:: sphinxcontrib-plantuml/state_fork.puml
+.. include:: sphinxcontrib-plantuml/state_fork.rst.txt
 
 State diagram - Conditional
 ---------------------------
-.. uml:: sphinxcontrib-plantuml/state_conditional.puml
+.. include:: sphinxcontrib-plantuml/state_conditional.rst.txt
 
 State diagram - Note
 --------------------
-.. uml:: sphinxcontrib-plantuml/state_note.puml
+.. include:: sphinxcontrib-plantuml/state_note.rst.txt
 
 
 Timing diagram
@@ -255,15 +255,15 @@ Docs: https://plantuml.com/timing-diagram
 
 Timing diagram - Declaring participant
 --------------------------------------
-.. uml:: sphinxcontrib-plantuml/timing_participants.puml
+.. include:: sphinxcontrib-plantuml/timing_participants.rst.txt
 
 Timing diagram - Adding message
 -------------------------------
-.. uml:: sphinxcontrib-plantuml/timing_message.puml
+.. include:: sphinxcontrib-plantuml/timing_message.rst.txt
 
 Timing diagram - Adding constraint
 ----------------------------------
-.. uml:: sphinxcontrib-plantuml/timing_constraint.puml
+.. include:: sphinxcontrib-plantuml/timing_constraint.rst.txt
 
 
 Use Case diagram
@@ -273,8 +273,8 @@ Docs: https://plantuml.com/use-case-diagram
 
 Use Case diagram - Using notes
 ------------------------------
-.. uml:: sphinxcontrib-plantuml/use_case_notes.puml
+.. include:: sphinxcontrib-plantuml/use_case_notes.rst.txt
 
 Use Case diagram - Complete example
 -----------------------------------
-.. uml:: sphinxcontrib-plantuml/use_case_complete.puml
+.. include:: sphinxcontrib-plantuml/use_case_complete.rst.txt

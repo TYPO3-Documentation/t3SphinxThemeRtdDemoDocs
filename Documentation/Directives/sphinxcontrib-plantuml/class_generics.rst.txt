@@ -1,0 +1,6 @@
+.. uml::
+
+    class Foo<? extends Element> {
+      int size()
+    }
+    Foo *- Element
