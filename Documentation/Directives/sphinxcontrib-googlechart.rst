@@ -1,23 +1,35 @@
 .. include:: /Includes.rst.txt
+.. highlight:: rst
 .. _sphinxcontrib-googlechart:
 
 =========================
 sphinxcontrib-googlechart
 =========================
 
-See https://github.com/TYPO3-Documentation/sphinx-contrib-googlechart/blob/develop/README.rst
+.. attention::
+
+   Now deprecated by Google.
+   See https://en.wikipedia.org/wiki/Google_Chart_API.
+   Examples on this page have therefore been disabled.
+
+Readings:
+
+•  The Sphinx extension's home:
+   https://pythonhosted.org/sphinxcontrib-googlechart/
+
+•  https://github.com/TYPO3-Documentation/sphinx-contrib-googlechart/blob/develop/README.rst
+
+
 
 googlechart extension README
 ============================
 
 **See CHANGELOG.rst**
 
-This is a sphinx extension which render charts and graphs by using
-`Google Chart <http://code.google.com/intl/ja/apis/chart/>`_ .
+This is a sphinx extension which renders charts and graphs by using
+`Google Chart <https://developers.google.com/chart>`_ .
 
-source:
-
-.. code-block:: text
+source::
 
    .. piechart::
 
@@ -27,7 +39,7 @@ source:
 
 rendered:
 
-.. piechart::
+.. DISABLED piechart::
 
    dog: 100
    cat: 80
@@ -39,8 +51,8 @@ Directive
 
 .. describe:: .. piechart::
 
-   This directive insert a piechart into the generated document.
-   piechart directive takes code block as source script.
+   This directive inserts a piechart into the generated document.
+   piechart directive uses the code block as source script.
 
    Examples::
 
@@ -50,7 +62,7 @@ Directive
          cat: 80
          rabbit: 40
 
-   .. piechart::
+   .. DISABLED piechart::
 
       dog: 100
       cat: 80
@@ -94,7 +106,7 @@ Directive
          cat: 80
          rabbit: 40
 
-   .. piechart3d::
+   .. DISABLED piechart3d::
       :size: 480x240
 
       dog: 100
@@ -114,7 +126,7 @@ Directive
          bicycle: 15, 35, 20, 40
          car: 60, 75, 60, 30
 
-   .. linechart::
+   .. DISABLED linechart::
 
       bicycle: 15, 35, 20, 40
       car: 60, 75, 60, 30
@@ -129,7 +141,7 @@ Directive
          car: 60, 75, 60, 30
          car.color: 0000ff
 
-   .. linechart::
+   .. DISABLED linechart::
 
       bicycle: 15, 35, 20, 40
       bicycle.color: ff0000
@@ -148,7 +160,7 @@ Directive
          car: 60, 75, 60, 30
          car.color: 0000ff
 
-   .. linechart::
+   .. DISABLED linechart::
 
       bicycle: 15, 35, 20, 40
       bicycle.color: ff0000
@@ -167,7 +179,7 @@ Directive
          car: 60, 75, 60, 30
          car.color: 0000ff
 
-   .. linechart::
+   .. DISABLED linechart::
 
       bicycle: 15, 35, 20, 40
       bicycle.color: ff0000
@@ -188,7 +200,7 @@ Directive
          car: (0, 60), (20, 75), (40, 60), (90, 30)
 
 
-   .. linechartxy::
+   .. DISABLED linechartxy::
 
       bicycle: (0, 15), (30, 35), (60, 20), (90, 40)
       car: (0, 60), (20, 75), (40, 60), (90, 30)
@@ -212,7 +224,7 @@ Directive
 
    **DISABLED in 2020** since Google now reports an error.
 
-   .. DISABLED holizontal_barchart::
+   .. DISABLED horizontal_barchart::
 
       bicycle: 15, 25, 20, 30
       bicycle.color: ff0000
@@ -251,14 +263,14 @@ Directive
       car.color: 0000ff
 
 
-.. describe:: .. holizontal_bargraph::
+.. describe:: .. horizontal_bargraph::
 
    This directive insert a barchart into the generated document.
    barchart directive takes code block as source script.
 
    Examples::
 
-      .. holizontal_bargraph::
+      .. horizontal_bargraph::
 
          bicycle: 15, 25, 20, 30
          bicycle.color: ff0000
@@ -267,7 +279,7 @@ Directive
          car: 40, 50, 60, 45
          car.color: 0000ff
 
-   .. holizontal_bargraph::
+   .. DISABLED horizontal_bargraph::
 
       bicycle: 15, 25, 20, 30
       bicycle.color: ff0000
@@ -293,7 +305,7 @@ Directive
          car: 40, 50, 60, 45
          car.color: 0000ff
 
-   .. vertical_bargraph::
+   .. DISABLED vertical_bargraph::
 
       bicycle: 15, 25, 20, 30
       bicycle.color: ff0000
@@ -314,7 +326,7 @@ Directive
 
          data: 100, 80, 40, 20, 20, 20, 10
 
-   .. venndiagram::
+   .. DISABLED venndiagram::
 
       data: 100, 80, 40, 20, 20, 20, 10
 
@@ -330,7 +342,7 @@ Directive
 
          data: (50, 60), (75, 20), (20, 30), (10, 70), (45, 10)
 
-   .. plotchart::
+   .. DISABLED plotchart::
 
       data: (50, 60), (75, 20), (20, 30), (10, 70), (45, 10)
       data.axis: x, y
@@ -375,9 +387,4 @@ Directive
       KR: "Republic of Korea"
       KR.color: 0000ff
 
-
-Graphviz charts on Google Chart
-===============================
-
-Not available here at the moment for TYPO3 usage as graphviz is not installed.
 
