@@ -44,7 +44,6 @@ Source::
       :align: center
       :caption: caption of the graph
       :name: this is a label
-      :class: a-class b-class c-class
 
       digraph foo {
          "bar" -> "baz";
@@ -57,7 +56,6 @@ Result:
    :align: center
    :caption: caption of the graph
    :name: this is a label
-   :class: a-class b-class c-class
 
    digraph foo {
       "bar" -> "baz";
