@@ -1,7 +1,0 @@
-.. uml::
-
-    Alice -> Bob: Authentication Request
-    ...
-    Bob --> Alice: Authentication Response
-    ...5 minutes later...
-    Bob --> Alice: Bye !

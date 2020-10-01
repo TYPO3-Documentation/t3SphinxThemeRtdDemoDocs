@@ -1,6 +1,0 @@
-.. uml::
-
-    class Dummy {
-      {static} String id
-      {abstract} void methods()
-    }
