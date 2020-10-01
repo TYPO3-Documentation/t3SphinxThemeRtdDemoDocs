@@ -9,6 +9,7 @@ sphinxcontrib-googlemaps
 
 See https://github.com/TYPO3-Documentation/sphinx-contrib-googlemaps/blob/develop/README.rst
 
+
 googlemaps extension README
 ============================
 
