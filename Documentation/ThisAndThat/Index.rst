@@ -29,6 +29,83 @@ Here is another:
     \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
 
 
+Rubric
+======
+
+   This directive creates a paragraph heading that is not used to create a
+   table of contents node.
+
+   -- `sphinx-doc.org
+      <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html?highlight=rubric#directive-rubric>`__
+
+.. rubric:: Rubric 001
+
+On we go.
+
+.. rubric:: Rubric 002
+.. nothing in between
+.. rubric:: Rubric 003
+
+
+
+
+
+Subsection 1
+------------
+
+.. rubric:: Rubric sub 001
+
+On we go.
+
+.. rubric:: Rubric sub 002
+.. nothing in between
+.. rubric:: Rubric sub 003
+
+
+Centered
+========
+
+   This directive creates a centered boldfaced line of text. Use it as follows:
+
+   Deprecated since version 1.1: This presentation-only directive is a legacy
+   from older versions. Use a rst-class directive instead and add an
+   appropriate style.
+
+
+   -- `sphinx-doc.org
+      <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html?highlight=rubric#directive-centered>`__
+
+
+.. centered:: SOMETHING THAT IS - MAYBE - CENTERED
+
+`.. rst-class:: centered` should be used instead of `.. centered::`.
+
+
+
+Hlist
+=====
+
+   This directive must contain a bullet list. It will transform it into a more
+   compact list by either distributing more than one item horizontally, or
+   reducing spacing between items, depending on the builder.
+
+   For builders that support the horizontal distribution, there is a columns
+   option that specifies the number of columns; it defaults to 2. Example:
+
+   -- `sphinx-doc.org
+      <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html?highlight=rubric#directive-hlist>`__
+
+.. hlist::
+   :columns: 3
+
+   * A list of
+   * short items
+   * that should be
+   * displayed
+   * horizontally
+
+
+
 Optional parameter args
 =======================
 

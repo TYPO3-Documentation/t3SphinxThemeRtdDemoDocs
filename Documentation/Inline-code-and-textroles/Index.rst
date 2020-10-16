@@ -1,4 +1,4 @@
-.. include:: /Includes.txt
+.. include:: /Includes.rst.txt
 .. highlight:: rst
 
 .. _Inline-code-and-text-roles:

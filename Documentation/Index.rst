@@ -22,40 +22,9 @@ See `_buildinfo <_buildinfo>`_
 
 :Rendered: |today|
 
-.. rst-class:: compact-list
-.. toctree::
-   :caption: Caption 1
-
-   Sitemap/Index
-   genindex
-   Admonitions-and-buttons/Index
-   Blockquotes/Index
-   Codeblocks/Index
-   Fonts/Index
-   Highlighting/Index
-   ImagesAndFigures/Index
-   Lineblocks/Index
-   Lists/Index
-   ListsAsButtons/Index
-   StyledNumberedLists/Index
-   Tables/Index
-
-.. rst-class:: compact-list
 .. toctree::
    :titlesonly:
-   :caption: Caption 2
+   :glob:
 
-   Directives/Index
-   Inline-code-and-textroles/Index
-   ThisAndThat/Index
-   Nested-pages/index
-
-.. rst-class:: compact-list
-.. toctree::
-   :titlesonly:
-   :caption: Caption 3
-
-   Long/Index
-   reStructuredText Demonstration from the Docutils Docs <reStructuredText-Demonstration>
-   Typesetting/Index
-
+   */Index
+   *
