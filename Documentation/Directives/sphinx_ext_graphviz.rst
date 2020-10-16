@@ -9,9 +9,98 @@ sphinx.ext.graphviz
 
 See https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html
 
+Example: Topics
+===============
+
+Note there are links and tootips!
+
+.. graphviz::
+   :caption: Structuring knowledge by topics. Note there are tooltips. Some
+             nodes have operational hyperlinks.
+
+   digraph Knowledge_by_topics  {
+   layout=neato;
+   ratio="0.6"
+   // size="8.27,11.69"; // 210mmx297mm
+   graph[label="",labelloc="t",tooltip="Structuring knowledge by topics",bgcolor="#f0f0f0"];
+   node [fontsize = 14, style = solid];
+
+   Looking_for [label="Looking for …",fillcolor=white,shape=rectangle,style="dashed,filled",tooltip="Suppose you are trying to find out about a topic …"];
+
+   node [fontsize=12,style=filled,width=.75,height=.50];
+
+   Looking_for -> Your_topic;
+   Looking_for -> CKEditor;
+   Looking_for -> Deployment;
+   Looking_for -> Sitepackages;
+   Looking_for -> More;
+
+   node[fontsize=10,margin=".05",width=.75,height=.40,shape=ellipse,style=filled,fillcolor=white]
+
+   CKEditor -> CKEditor_blogpostings;
+   CKEditor -> CKEditor_official_docs;
+   CKEditor -> CKEditor_onlinetryouts;
+
+   Deployment -> Deployment_blog_postings;
+   Deployment -> Deployment_clever_solutions;
+   Deployment -> Deployment_tools;
+
+   More -> More_best_practise;
+   More -> More_resources;
+
+   Sitepackages -> Sitepackages_tutorials;
+   Sitepackages -> Sitepackages_videos;
+
+   CKEditor               [                       href="../Topics/Ckeditor.html"                       ,target=_top,tooltip="CKEditor"];
+   CKEditor_blogpostings  [label="Blog postings" ,href="../Topics/Ckeditor.html#blog-postings"         ,target=_top,tooltip="CKEditor: Blog postings"];
+   CKEditor_official_docs [label="Official docs" ,href="../Topics/Ckeditor.html#official-documentation",target=_top,tooltip="CKEditor: Official documentation"];
+   CKEditor_onlinetryouts [label="Online tryouts",href="../Topics/Ckeditor.html#online-tryouts"        ,target=_top,tooltip="CKEditor: Online tryouts"];
+
+   Deployment                  [                         href="../Topics/Deployment.html"                 ,target=_top,tooltip="Deployment"];
+   Deployment_blog_postings    [label="Blog postings"   ,href="../Topics/Deployment.html#blog-postings"   ,target=_top,tooltip="Deployment: Blog postings"];
+   Deployment_tools            [label="Tools"           ,href="../Topics/Deployment.html#tools"           ,target=_top,tooltip="Deployment: Tools"];
+   Deployment_clever_solutions [label="Clever solutions",href="../Topics/Deployment.html#clever-solutions",target=_top,tooltip="Deployment: Cever solutions"];
+
+   More               [label="More…"        ,tooltip="There are more topics in this manual"];
+   More_best_practise [label="Best practise",tooltip="More: Best practise"];
+   More_resources     [label="Resources"    ,tooltip="More: Resources"];
+
+   Sitepackages           [                  href="../Topics/Sitepackages.html"           ,target=_top,tooltip="Sitepackages"];
+   Sitepackages_tutorials [label="Tutorials",href="../Topics/Sitepackages.html#tutorials" ,target=_top,tooltip="Sitepackages: Tutorials"];
+   Sitepackages_videos    [label="Videos"   ,href="../Topics/Sitepackages.html#videos"    ,target=_top,tooltip="Sitepackages: Videos"];
+
+   Your_topic             [label="Your topic…", tooltip="This can be your topic - if you contribute"];
+
+
+   node [label="",shape=point,width=.1,height=.1];
+
+   CKEditor     -> CKEditor_more;
+   Deployment   -> Deployment_more;
+   More         -> More_more;
+   Sitepackages -> Sitepackages_more;
+   Your_topic   -> Your_topic_more_1;
+   Your_topic   -> Your_topic_more_2;
+   Your_topic   -> Your_topic_more_3;
+   Your_topic   -> Your_topic_more_4;
+   Your_topic   -> Your_topic_more_5;
+
+
+   Deployment_more   [label = "", tooltip = "Deployment: More…"];
+   More_more         [label = "", tooltip = "More: …"];
+   Your_topic_more_1 [label = "", tooltip = "More…"];
+   Your_topic_more_2 [label = "", tooltip = "More…"];
+   Your_topic_more_3 [label = "", tooltip = "More…"];
+   Your_topic_more_4 [label = "", tooltip = "More…"];
+   Your_topic_more_5 [label = "", tooltip = "More…"];
+
+   CKEditor_more          [label="",tooltip="CKEditor: More…"];
+   Sitepackages_more      [label="",tooltip="Sitepackages: More…"];
+
+   }
+
 
 Example: graphviz
-================
+=================
 
 Source::
 
