@@ -1,10 +1,10 @@
 .. include:: /Includes.rst.txt
 .. index:: plantuml; component diagram
-.. _Plantuml-component-diagrams:
+.. _Plantuml-component-diagrams-2:
 
-===========================
-Plantuml component diagrams
-===========================
+=============================
+Plantuml component diagrams 2
+=============================
 
 Taken from: https://plantuml.com/link, https://plantuml.com/sequence-diagram
 

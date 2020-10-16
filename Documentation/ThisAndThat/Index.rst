@@ -78,15 +78,8 @@ Centered
 
 .. centered:: SOMETHING THAT IS - MAYBE - CENTERED
 
-:ref:`sphinxdoc:rst-directives`
+`.. rst-class:: centered` should be used instead of `.. centered::`.
 
-:ref:`sphinxdoc:rst:directive-centered`
-
-:ref:`sphinxdoc:rst-directive-centered`
-
-:ref:`sphinxdoc:directive-centered`
-
-:ref:`sphinxdoc:rst-directive`
 
 
 Hlist
