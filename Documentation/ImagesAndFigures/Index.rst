@@ -13,6 +13,98 @@ Images And Figures
    :local:
 
 
+Bright images with border and shadow
+====================================
+
+.. image:: ../images/q150_ffffff.png
+   :alt: Image with background color #ffffff
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_f8f8f8.png
+   :alt: Image with background color #f8f8f8
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_eeeeee.png
+   :alt: Image with background color #eeeeee
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_dddddd.png
+   :alt: Image with background color #dddddd
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_cccccc.png
+   :alt: Image with background color #cccccc
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_ffffff.png
+   :alt: Image with background color #ffffff
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_f8f8f8.png
+   :alt: Image with background color #f8f8f8
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_eeeeee.png
+   :alt: Image with background color #eeeeee
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_dddddd.png
+   :alt: Image with background color #dddddd
+   :class: with-border with-shadow
+
+.. image:: ../images/q150_cccccc.png
+   :alt: Image with background color #cccccc
+   :class: with-border with-shadow
+
+
+Bright images with border
+=========================
+
+.. image:: ../images/q150_ffffff.png
+   :alt: Image with background color #ffffff
+   :class: with-border
+
+.. image:: ../images/q150_f8f8f8.png
+   :alt: Image with background color #f8f8f8
+   :class: with-border
+
+.. image:: ../images/q150_eeeeee.png
+   :alt: Image with background color #eeeeee
+   :class: with-border
+
+.. image:: ../images/q150_dddddd.png
+   :alt: Image with background color #dddddd
+   :class: with-border
+
+.. image:: ../images/q150_cccccc.png
+   :alt: Image with background color #cccccc
+   :class: with-border
+
+
+Bright images with shadow
+=========================
+
+.. image:: ../images/q150_ffffff.png
+   :alt: Image with background color #ffffff
+   :class: with-shadow
+
+.. image:: ../images/q150_f8f8f8.png
+   :alt: Image with background color #f8f8f8
+   :class: with-shadow
+
+.. image:: ../images/q150_eeeeee.png
+   :alt: Image with background color #eeeeee
+   :class: with-shadow
+
+.. image:: ../images/q150_dddddd.png
+   :alt: Image with background color #dddddd
+   :class: with-shadow
+
+.. image:: ../images/q150_cccccc.png
+   :alt: Image with background color #cccccc
+   :class: with-shadow
+
+
 Image float left
 ================
 
@@ -57,7 +149,6 @@ types[1] or the digital equivalents. Stored letters and other symbols
 (called sorts in mechanical systems and glyphs in digital systems)
 are retrieved and ordered according to a language's orthography for
 visual display.
-
 
 
 Images of Series A
