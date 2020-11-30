@@ -22,6 +22,7 @@ See `_buildinfo <_buildinfo>`_
 
 :Rendered: |today|
 
+.. rst-class:: compact-list
 .. toctree::
    :titlesonly:
    :glob:

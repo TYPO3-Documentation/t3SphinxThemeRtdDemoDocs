@@ -7,7 +7,7 @@ Nested Pages
 Page subtitle
 -------------
 
-
+.. rst-class:: compact-list
 .. toctree::
    :glob:
    :hidden:
