@@ -164,13 +164,36 @@ In case of a normal list:
    -  bcd
    -  cde
 
-Should look like:
 
-.. rst-class:: compact-list
+.. t3-field-list-table::
+ :header-rows: 1
 
--  abc
--  bcd
--  cde
+ - :a: compact list
+   :b: normal list
+
+ - :a: .. rst-class:: compact-list
+
+       -  abc
+       -  bcd
+       -  cde
+       -  def
+       -  efg
+
+   :b: -  abc
+       -  bcd
+       -  cde
+       -  def
+       -  efg
+
+ - :a: .. rst-class:: compact-list
+
+       1. one
+       2. two
+       3. three
+
+   :b: 1. one
+       2. two
+       3. three
 
 
 Or, for example:
