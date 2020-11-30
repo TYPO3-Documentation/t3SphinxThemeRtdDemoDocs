@@ -1,15 +1,14 @@
 .. include:: /Includes.rst.txt
+.. index:: Line blocks
+.. _Line-blocks:
 
 ===========
-Line Blocks
+Line blocks
 ===========
 
    This example is taken from
    `Docutils: Line Blocks
    <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#line-blocks>`__
-
-
-.. highlight:: rst
 
 
 Doctree elements: line_block, line.  (New in Docutils 0.3.5.)
