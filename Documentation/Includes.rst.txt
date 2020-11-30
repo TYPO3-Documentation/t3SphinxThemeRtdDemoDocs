@@ -24,6 +24,6 @@
 .. highlight
 .. ---------
 
-.. By default, code blocks are php
+.. By default, code rst is highlighted in the manual
 
-.. highlight:: php
+.. highlight:: rst
