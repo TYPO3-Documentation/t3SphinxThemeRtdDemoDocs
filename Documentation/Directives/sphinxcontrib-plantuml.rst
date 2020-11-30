@@ -13,6 +13,7 @@ https://pypi.org/project/sphinxcontrib-plantuml/
 
 .. rubric:: **Subpages**
 
+.. rst-class:: compact-list
 .. toctree::
    :glob:
 

@@ -7,8 +7,7 @@ Directives
 ==========
 
 
-.. rst-class:: compact list
-
+.. rst-class:: compact-list
 .. toctree::
    :glob:
 

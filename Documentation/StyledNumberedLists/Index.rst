@@ -13,6 +13,7 @@ Jargon: This is all about "bignums"!
 .. rst-class:: compact-list
 
 .. contents::
+   :class: compact-list
    :local:
    :backlinks: top
 
