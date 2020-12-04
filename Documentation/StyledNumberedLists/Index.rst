@@ -7,16 +7,11 @@ Styled Numbered Lists
 
 Jargon: This is all about "bignums"!
 
-
-**On this page:**
-
-.. rst-class:: compact-list
-
-.. contents::
-   :class: compact-list
-   :local:
+.. contents:: This page
    :backlinks: top
-
+   :class: compact-list
+   :depth: 3
+   :local:
 
 
 ol
