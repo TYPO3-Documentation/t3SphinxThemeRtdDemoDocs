@@ -1,0 +1,141 @@
+.. include:: /Includes.rst.txt
+.. highlight:: rst
+.. index:: sphinx-tabs
+
+
+===========
+sphinx-tabs
+===========
+
+See https://pypi.org/project/sphinx-tabs/
+
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 3
+   :local:
+
+
+Simple Tabs
+===========
+
+.. tabs::
+
+   .. tab:: Apples
+
+      Apples are green, or sometimes red.
+
+   .. tab:: Pears
+
+      Pears are green.
+
+   .. tab:: Oranges
+
+      Oranges are orange.
+
+
+Nested Tabs
+===========
+
+.. tabs::
+
+   .. tab:: Stars
+
+      .. tabs::
+
+         .. tab:: The Sun
+
+            The closest star to us.
+
+         .. tab:: Proxima Centauri
+
+            The second closest star to us.
+
+         .. tab:: Polaris
+
+            The North Star.
+
+   .. tab:: Moons
+
+      .. tabs::
+
+         .. tab:: The Moon
+
+            Orbits the Earth
+
+         .. tab:: Titan
+
+            Orbits Jupiter
+
+
+Code Tabs (not yet recommended)
+===============================
+
+.. note::
+
+   code-tabs are not recommended for TYPO3 yet as their pros and cons have not
+   been evaluated yet.
+
+
+.. tabs::
+
+   .. code-tab:: c
+
+         C Main Function
+
+   .. code-tab:: c++
+
+         C++ Main Function
+
+   .. code-tab:: py
+
+         Python Main Function
+
+   .. code-tab:: java
+
+         Java Main Function
+
+   .. code-tab:: julia
+
+         Julia Main Function
+
+   .. code-tab:: fortran
+
+         Fortran Main Function
+
+.. tabs::
+
+   .. code-tab:: c
+
+         int main(const int argc, const char **argv) {
+           return 0;
+         }
+
+   .. code-tab:: c++
+
+         int main(const int argc, const char **argv) {
+           return 0;
+         }
+
+   .. code-tab:: py
+
+         def main():
+             return
+
+   .. code-tab:: java
+
+         class Main {
+             public static void main(String[] args) {
+             }
+         }
+
+   .. code-tab:: julia
+
+         function main()
+         end
+
+   .. code-tab:: fortran
+
+         PROGRAM main
+         END PROGRAM main
+
