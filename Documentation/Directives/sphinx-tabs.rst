@@ -67,6 +67,37 @@ Nested Tabs
 
             Orbits Jupiter
 
+Group Tabs
+==========
+
+.. tabs::
+
+   .. group-tab:: Linux
+
+      Linux Line 1
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 1
+
+   .. group-tab:: Windows
+
+      Windows Line 1
+
+.. tabs::
+
+   .. group-tab:: Linux
+
+      Linux Line 2
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 2
+
+   .. group-tab:: Windows
+
+      Windows Line 2
+
 
 Code Tabs (not yet recommended)
 ===============================
