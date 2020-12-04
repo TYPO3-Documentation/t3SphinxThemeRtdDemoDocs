@@ -67,6 +67,7 @@ Nested Tabs
 
             Orbits Jupiter
 
+
 Group Tabs
 ==========
 
@@ -99,14 +100,8 @@ Group Tabs
       Windows Line 2
 
 
-Code Tabs (not yet recommended)
-===============================
-
-.. note::
-
-   code-tabs are not recommended for TYPO3 yet as their pros and cons have not
-   been evaluated yet.
-
+Code Tabs
+=========
 
 .. tabs::
 
