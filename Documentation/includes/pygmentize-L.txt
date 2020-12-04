@@ -1,17 +1,25 @@
-Pygments version 2.0.2, (c) 2006-2014 by Georg Brandl.
+Pygments version 2.5.2, (c) 2006-2019 by Georg Brandl.
 
 Lexers:
 ~~~~~~~
 * abap:
-    ABAP (filenames *.abap)
+    ABAP (filenames *.abap, *.ABAP)
+* abnf:
+    ABNF (filenames *.abnf)
 * ada, ada95, ada2005:
     Ada (filenames *.adb, *.ads, *.ada)
+* adl:
+    ADL (filenames *.adl, *.adls, *.adlf, *.adlx)
 * agda:
     Agda (filenames *.agda)
+* aheui:
+    Aheui (filenames *.aheui)
 * ahk, autohotkey:
     autohotkey (filenames *.ahk, *.ahkl)
 * alloy:
     Alloy (filenames *.als)
+* ampl:
+    Ampl (filenames *.run)
 * antlr-as, antlr-actionscript:
     ANTLR With ActionScript Target (filenames *.G, *.g)
 * antlr-cpp:
@@ -29,13 +37,15 @@ Lexers:
 * antlr-ruby, antlr-rb:
     ANTLR With Ruby Target (filenames *.G, *.g)
 * antlr:
-    ANTLR 
+    ANTLR
 * apacheconf, aconf, apache:
     ApacheConf (filenames .htaccess, apache.conf, apache2.conf)
 * apl:
     APL (filenames *.apl)
 * applescript:
     AppleScript (filenames *.applescript)
+* arduino:
+    Arduino (filenames *.ino)
 * as, actionscript:
     ActionScript (filenames *.as)
 * as3, actionscript3:
@@ -50,30 +60,44 @@ Lexers:
     Asymptote (filenames *.asy)
 * at, ambienttalk, ambienttalk/2:
     AmbientTalk (filenames *.at)
+* augeas:
+    Augeas (filenames *.aug)
 * autoit:
     AutoIt (filenames *.au3)
 * awk, gawk, mawk, nawk:
     Awk (filenames *.awk)
 * basemake:
-    Base Makefile 
-* bash, sh, ksh, shell:
-    Bash (filenames *.sh, *.ksh, *.bash, *.ebuild, *.eclass, .bashrc, bashrc, .bash_*, bash_*, PKGBUILD)
+    Base Makefile
+* bash, sh, ksh, zsh, shell:
+    Bash (filenames *.sh, *.ksh, *.bash, *.ebuild, *.eclass, *.exheres-0, *.exlib, *.zsh, .bashrc, bashrc, .bash_*, bash_*, zshrc, .zshrc, PKGBUILD)
 * bat, batch, dosbatch, winbatch:
     Batchfile (filenames *.bat, *.cmd)
+* bbcbasic:
+    BBC Basic (filenames *.bbc)
 * bbcode:
-    BBCode 
+    BBCode
+* bc:
+    BC (filenames *.bc)
 * befunge:
     Befunge (filenames *.befunge)
+* bib, bibtex:
+    BibTeX (filenames *.bib)
 * blitzbasic, b3d, bplus:
     BlitzBasic (filenames *.bb, *.decls)
 * blitzmax, bmax:
     BlitzMax (filenames *.bmx)
+* bnf:
+    BNF (filenames *.bnf)
+* boa:
+    Boa (filenames *.boa)
 * boo:
     Boo (filenames *.boo)
+* boogie:
+    Boogie (filenames *.bpl)
 * brainfuck, bf:
     Brainfuck (filenames *.bf, *.b)
-* bro:
-    Bro (filenames *.bro)
+* bst, bst-pybtex:
+    BST (filenames *.bst)
 * bugs, winbugs, openbugs:
     BUGS (filenames *.bug)
 * c-objdump:
@@ -82,6 +106,14 @@ Lexers:
     C (filenames *.c, *.h, *.idc)
 * ca65:
     ca65 assembler (filenames *.s)
+* cadl:
+    cADL (filenames *.cadl)
+* camkes, idl4:
+    CAmkES (filenames *.camkes, *.idl4)
+* capdl:
+    CapDL (filenames *.cdl)
+* capnp:
+    Cap'n Proto (filenames *.capnp)
 * cbmbas:
     CBM BASIC V2 (filenames *.bas)
 * ceylon:
@@ -93,17 +125,21 @@ Lexers:
 * cfm:
     Coldfusion HTML (filenames *.cfm, *.cfml)
 * cfs:
-    cfstatement 
+    cfstatement
 * chai, chaiscript:
     ChaiScript (filenames *.chai)
 * chapel, chpl:
     Chapel (filenames *.chpl)
+* charmci:
+    Charmci (filenames *.ci)
 * cheetah, spitfire:
     Cheetah (filenames *.tmpl, *.spt)
 * cirru:
     Cirru (filenames *.cirru)
 * clay:
     Clay (filenames *.clay)
+* clean:
+    Clean (filenames *.icl, *.dcl)
 * clojure, clj:
     Clojure (filenames *.clj)
 * clojurescript, cljs:
@@ -116,10 +152,12 @@ Lexers:
     COBOLFree (filenames *.cbl, *.CBL)
 * coffee-script, coffeescript, coffee:
     CoffeeScript (filenames *.coffee)
-* common-lisp, cl, lisp, elisp, emacs, emacs-lisp:
-    Common Lisp (filenames *.cl, *.lisp, *.el)
-* console:
-    Bash Session (filenames *.sh-session)
+* common-lisp, cl, lisp:
+    Common Lisp (filenames *.cl, *.lisp)
+* componentpascal, cp:
+    Component Pascal (filenames *.cp, *.cps)
+* console, shell-session:
+    Bash Session (filenames *.sh-session, *.shell-session)
 * control, debcontrol:
     Debian Control file (filenames control)
 * coq:
@@ -128,32 +166,42 @@ Lexers:
     C++ (filenames *.cpp, *.hpp, *.c++, *.h++, *.cc, *.hh, *.cxx, *.hxx, *.C, *.H, *.cp, *.CPP)
 * cpp-objdump, c++-objdumb, cxx-objdump:
     cpp-objdump (filenames *.cpp-objdump, *.c++-objdump, *.cxx-objdump)
+* cpsa:
+    CPSA (filenames *.cpsa)
+* cr, crystal:
+    Crystal (filenames *.cr)
+* crmsh, pcmk:
+    Crmsh (filenames *.crmsh, *.pcmk)
 * croc:
     Croc (filenames *.croc)
 * cryptol, cry:
     Cryptol (filenames *.cry)
 * csharp, c#:
     C# (filenames *.cs)
+* csound, csound-orc:
+    Csound Orchestra (filenames *.orc, *.udo)
+* csound-document, csound-csd:
+    Csound Document (filenames *.csd)
+* csound-score, csound-sco:
+    Csound Score (filenames *.sco)
 * css+django, css+jinja:
-    CSS+Django/Jinja 
+    CSS+Django/Jinja
 * css+erb, css+ruby:
-    CSS+Ruby 
+    CSS+Ruby
 * css+genshitext, css+genshi:
-    CSS+Genshi Text 
+    CSS+Genshi Text
 * css+lasso:
-    CSS+Lasso 
+    CSS+Lasso
 * css+mako:
-    CSS+Mako 
-* css+mako:
-    CSS+Mako 
+    CSS+Mako
 * css+mozpreproc:
     CSS+mozpreproc (filenames *.css.in)
 * css+myghty:
-    CSS+Myghty 
+    CSS+Myghty
 * css+php:
-    CSS+PHP 
+    CSS+PHP
 * css+smarty:
-    CSS+Smarty 
+    CSS+Smarty
 * css:
     CSS (filenames *.css)
 * cucumber, gherkin:
@@ -170,16 +218,20 @@ Lexers:
     D (filenames *.d, *.di)
 * dart:
     Dart (filenames *.dart)
+* dasm16:
+    DASM16 (filenames *.dasm16, *.dasm)
 * delphi, pas, pascal, objectpascal:
-    Delphi (filenames *.pas)
+    Delphi (filenames *.pas, *.dpr)
 * dg:
     dg (filenames *.dg)
 * diff, udiff:
     Diff (filenames *.diff, *.patch)
 * django, jinja:
-    Django/Jinja 
+    Django/Jinja
 * docker, dockerfile:
     Docker (filenames Dockerfile, *.docker)
+* doscon:
+    MSDOS Session
 * dpatch:
     Darcs Patch (filenames *.dpatch, *.darcspatch)
 * dtd:
@@ -192,6 +244,10 @@ Lexers:
     DylanLID (filenames *.lid, *.hdp)
 * dylan:
     Dylan (filenames *.dylan, *.dyl, *.intr)
+* earl-grey, earlgrey, eg:
+    Earl Grey (filenames *.eg)
+* easytrieve:
+    Easytrieve (filenames *.ezt, *.mac)
 * ebnf:
     EBNF (filenames *.ebnf)
 * ec:
@@ -202,14 +258,24 @@ Lexers:
     Eiffel (filenames *.e)
 * elixir, ex, exs:
     Elixir (filenames *.ex, *.exs)
+* elm:
+    Elm (filenames *.elm)
+* emacs, elisp, emacs-lisp:
+    EmacsLisp (filenames *.el)
+* email, eml:
+    E-mail (filenames *.eml)
 * erb:
-    ERB 
+    ERB
 * erl:
     Erlang erl session (filenames *.erl-sh)
 * erlang:
     Erlang (filenames *.erl, *.hrl, *.es, *.escript)
 * evoque:
     Evoque (filenames *.evoque)
+* extempore:
+    xtlang (filenames *.xtm)
+* ezhil:
+    Ezhil (filenames *.n)
 * factor:
     Factor (filenames *.factor)
 * fan:
@@ -218,12 +284,26 @@ Lexers:
     Fancy (filenames *.fy, *.fancypack)
 * felix, flx:
     Felix (filenames *.flx, *.flxh)
+* fennel, fnl:
+    Fennel (filenames *.fnl)
+* fish, fishshell:
+    Fish (filenames *.fish, *.load)
+* flatline:
+    Flatline
+* floscript, flo:
+    FloScript (filenames *.flo)
+* forth:
+    Forth (filenames *.frt, *.fs)
 * fortran:
-    Fortran (filenames *.f, *.f90, *.F, *.F90)
+    Fortran (filenames *.f03, *.f90, *.F03, *.F90)
+* fortranfixed:
+    FortranFixed (filenames *.f, *.F)
 * foxpro, vfp, clipper, xbase:
     FoxPro (filenames *.PRG, *.prg)
-* fsharp:
-    FSharp (filenames *.fs, *.fsi)
+* freefem:
+    Freefem (filenames *.edp)
+* fsharp, f#:
+    F# (filenames *.fs, *.fsi)
 * gap:
     GAP (filenames *.g, *.gd, *.gi, *.gap)
 * gas, asm:
@@ -231,7 +311,7 @@ Lexers:
 * genshi, kid, xml+genshi, xml+kid:
     Genshi (filenames *.kid)
 * genshitext:
-    Genshi Text 
+    Genshi Text
 * glsl:
     GLSL (filenames *.vert, *.frag, *.geo)
 * gnuplot:
@@ -247,47 +327,55 @@ Lexers:
 * groff, nroff, man:
     Groff (filenames *.[1234567], *.man)
 * groovy:
-    Groovy (filenames *.groovy)
+    Groovy (filenames *.groovy, *.gradle)
 * gst:
     Gosu Template (filenames *.gst)
 * haml:
     Haml (filenames *.haml)
 * handlebars:
-    Handlebars 
+    Handlebars
 * haskell, hs:
     Haskell (filenames *.hs)
 * haxeml, hxml:
     Hxml (filenames *.hxml)
+* hexdump:
+    Hexdump
+* hlsl:
+    HLSL (filenames *.hlsl, *.hlsli)
+* hsail, hsa:
+    HSAIL (filenames *.hsail)
+* hspec:
+    Hspec
 * html+cheetah, html+spitfire, htmlcheetah:
-    HTML+Cheetah 
+    HTML+Cheetah
 * html+django, html+jinja, htmldjango:
-    HTML+Django/Jinja 
+    HTML+Django/Jinja
 * html+evoque:
     HTML+Evoque (filenames *.html)
 * html+genshi, html+kid:
-    HTML+Genshi 
+    HTML+Genshi
 * html+handlebars:
     HTML+Handlebars (filenames *.handlebars, *.hbs)
 * html+lasso:
-    HTML+Lasso 
+    HTML+Lasso
 * html+mako:
-    HTML+Mako 
-* html+mako:
-    HTML+Mako 
+    HTML+Mako
 * html+myghty:
-    HTML+Myghty 
+    HTML+Myghty
+* html+ng2:
+    HTML + Angular2 (filenames *.ng2)
 * html+php:
     HTML+PHP (filenames *.phtml)
 * html+smarty:
-    HTML+Smarty 
+    HTML+Smarty
 * html+twig:
     HTML+Twig (filenames *.twig)
 * html+velocity:
-    HTML+Velocity 
+    HTML+Velocity
 * html:
     HTML (filenames *.html, *.htm, *.xhtml, *.xslt)
 * http:
-    HTTP 
+    HTTP
 * hx, haxe, hxsl:
     Haxe (filenames *.hx, *.hxsl)
 * hybris, hy:
@@ -296,12 +384,14 @@ Lexers:
     Hy (filenames *.hy)
 * i6t:
     Inform 6 template (filenames *.i6t)
+* icon:
+    Icon (filenames *.icon, *.ICON)
 * idl:
     IDL (filenames *.pro)
 * idris, idr:
     Idris (filenames *.idr)
 * iex:
-    Elixir iex session 
+    Elixir iex session
 * igor, igorpro:
     Igor (filenames *.ipf)
 * inform6, i6:
@@ -309,7 +399,7 @@ Lexers:
 * inform7, i7:
     Inform 7 (filenames *.ni, *.i7x)
 * ini, cfg, dosini:
-    INI (filenames *.ini, *.cfg)
+    INI (filenames *.ini, *.cfg, *.inf)
 * io:
     Io (filenames *.io)
 * ioke, ik:
@@ -318,8 +408,8 @@ Lexers:
     IRC logs (filenames *.weechatlog)
 * isabelle:
     Isabelle (filenames *.thy)
-* jade:
-    Jade (filenames *.jade)
+* j:
+    J (filenames *.ijs)
 * jags:
     JAGS (filenames *.jag, *.bug)
 * jasmin, jasminxt:
@@ -328,30 +418,34 @@ Lexers:
     Java (filenames *.java)
 * javascript+mozpreproc:
     Javascript+mozpreproc (filenames *.js.in)
+* jcl:
+    JCL (filenames *.jcl)
 * jlcon:
-    Julia console 
+    Julia console
 * js+cheetah, javascript+cheetah, js+spitfire, javascript+spitfire:
-    JavaScript+Cheetah 
+    JavaScript+Cheetah
 * js+django, javascript+django, js+jinja, javascript+jinja:
-    JavaScript+Django/Jinja 
+    JavaScript+Django/Jinja
 * js+erb, javascript+erb, js+ruby, javascript+ruby:
-    JavaScript+Ruby 
+    JavaScript+Ruby
 * js+genshitext, js+genshi, javascript+genshitext, javascript+genshi:
-    JavaScript+Genshi Text 
+    JavaScript+Genshi Text
 * js+lasso, javascript+lasso:
-    JavaScript+Lasso 
+    JavaScript+Lasso
 * js+mako, javascript+mako:
-    JavaScript+Mako 
-* js+mako, javascript+mako:
-    JavaScript+Mako 
+    JavaScript+Mako
 * js+myghty, javascript+myghty:
-    JavaScript+Myghty 
+    JavaScript+Myghty
 * js+php, javascript+php:
-    JavaScript+PHP 
+    JavaScript+PHP
 * js+smarty, javascript+smarty:
-    JavaScript+Smarty 
+    JavaScript+Smarty
 * js, javascript:
-    JavaScript (filenames *.js)
+    JavaScript (filenames *.js, *.jsm)
+* jsgf:
+    JSGF (filenames *.jsgf)
+* json-object:
+    JSONBareObject
 * json:
     JSON (filenames *.json)
 * jsonld, json-ld:
@@ -360,6 +454,8 @@ Lexers:
     Java Server Page (filenames *.jsp)
 * julia, jl:
     Julia (filenames *.jl)
+* juttle, juttle:
+    Juttle (filenames *.juttle)
 * kal:
     Kal (filenames *.kal)
 * kconfig, menuconfig, linux-config, kernel-config:
@@ -376,12 +472,14 @@ Lexers:
     Literate Cryptol (filenames *.lcry)
 * lean:
     Lean (filenames *.lean)
+* less:
+    LessCss (filenames *.less)
 * lhs, literate-haskell, lhaskell:
     Literate Haskell (filenames *.lhs)
 * lidr, literate-idris, lidris:
     Literate Idris (filenames *.lidr)
 * lighty, lighttpd:
-    Lighttpd configuration file 
+    Lighttpd configuration file
 * limbo:
     Limbo (filenames *.b)
 * liquid:
@@ -402,8 +500,6 @@ Lexers:
     Makefile (filenames *.mak, *.mk, Makefile, makefile, Makefile.*, GNUmakefile)
 * mako:
     Mako (filenames *.mao)
-* mako:
-    Mako (filenames *.mao)
 * maql:
     MAQL (filenames *.maql)
 * mask:
@@ -415,23 +511,29 @@ Lexers:
 * matlab:
     Matlab (filenames *.m)
 * matlabsession:
-    Matlab session 
+    Matlab session
+* md:
+    markdown (filenames *.md)
+* mime:
+    MIME
 * minid:
-    MiniD 
+    MiniD
 * modelica:
     Modelica (filenames *.mo)
 * modula2, m2:
     Modula-2 (filenames *.def, *.mod)
 * monkey:
     Monkey (filenames *.monkey)
+* monte:
+    Monte (filenames *.mt)
 * moocode, moo:
     MOOCode (filenames *.moo)
 * moon, moonscript:
     MoonScript (filenames *.moon)
 * mozhashpreproc:
-    mozhashpreproc 
+    mozhashpreproc
 * mozpercentpreproc:
-    mozpercentpreproc 
+    mozpercentpreproc
 * mql, mq4, mq5, mql4, mql5:
     MQL (filenames *.mq4, *.mq5, *.mqh)
 * mscgen, msc:
@@ -443,29 +545,37 @@ Lexers:
 * myghty:
     Myghty (filenames *.myt, autodelegate)
 * mysql:
-    MySQL 
+    MySQL
 * nasm:
     NASM (filenames *.asm, *.ASM)
+* ncl:
+    NCL (filenames *.ncl)
 * nemerle:
     Nemerle (filenames *.n)
 * nesc:
     nesC (filenames *.nc)
 * newlisp:
-    NewLisp (filenames *.lsp, *.nl)
+    NewLisp (filenames *.lsp, *.nl, *.kif)
 * newspeak:
     Newspeak (filenames *.ns2)
+* ng2:
+    Angular2
 * nginx:
-    Nginx configuration file 
-* nimrod, nim:
+    Nginx configuration file (filenames nginx.conf)
+* nim, nimrod:
     Nimrod (filenames *.nim, *.nimrod)
 * nit:
     Nit (filenames *.nit)
 * nixos, nix:
     Nix (filenames *.nix)
+* notmuch:
+    Notmuch
 * nsis, nsi, nsh:
     NSIS (filenames *.nsi, *.nsh)
 * numpy:
-    NumPy 
+    NumPy
+* nusmv:
+    NuSMV (filenames *.smv)
 * objdump-nasm:
     objdump-nasm (filenames *.objdump-intel)
 * objdump:
@@ -480,14 +590,20 @@ Lexers:
     OCaml (filenames *.ml, *.mli, *.mll, *.mly)
 * octave:
     Octave (filenames *.m)
+* odin:
+    ODIN (filenames *.odin)
 * ooc:
     Ooc (filenames *.ooc)
 * opa:
     Opa (filenames *.opa)
 * openedge, abl, progress:
     OpenEdge ABL (filenames *.p, *.cls)
+* pacmanconf:
+    PacmanConf (filenames pacman.conf)
 * pan:
     Pan (filenames *.pan)
+* parasail:
+    ParaSail (filenames *.psi, *.psl)
 * pawn:
     Pawn (filenames *.p, *.pwn, *.inc)
 * perl, pl:
@@ -500,10 +616,14 @@ Lexers:
     Pig (filenames *.pig)
 * pike:
     Pike (filenames *.pike, *.pmod)
+* pkgconfig:
+    PkgConfig (filenames *.pc)
 * plpgsql:
-    PL/pgSQL 
+    PL/pgSQL
+* pony:
+    Pony (filenames *.pony)
 * postgresql, postgres:
-    PostgreSQL SQL dialect 
+    PostgreSQL SQL dialect
 * postscript, postscr:
     PostScript (filenames *.ps, *.eps)
 * pot, po:
@@ -512,32 +632,40 @@ Lexers:
     POVRay (filenames *.pov, *.inc)
 * powershell, posh, ps1, psm1:
     PowerShell (filenames *.ps1, *.psm1)
+* praat:
+    Praat (filenames *.praat, *.proc, *.psc)
 * prolog:
     Prolog (filenames *.ecl, *.prolog, *.pro, *.pl)
 * properties, jproperties:
     Properties (filenames *.properties)
 * protobuf, proto:
     Protocol Buffer (filenames *.proto)
+* ps1con:
+    PowerShell Session
 * psql, postgresql-console, postgres-console:
-    PostgreSQL console (psql) 
+    PostgreSQL console (psql)
+* pug, jade:
+    Pug (filenames *.pug, *.jade)
 * puppet:
     Puppet (filenames *.pp)
-* py3tb:
-    Python 3.0 Traceback (filenames *.py3tb)
+* py2tb:
+    Python 2.x Traceback (filenames *.py2tb)
 * pycon:
-    Python console session 
+    Python console session
 * pypylog, pypy:
     PyPy Log (filenames *.pypylog)
-* pytb:
-    Python Traceback (filenames *.pytb)
-* python, py, sage:
-    Python (filenames *.py, *.pyw, *.sc, SConstruct, SConscript, *.tac, *.sage)
-* python3, py3:
-    Python 3 
+* pytb, py3tb:
+    Python Traceback (filenames *.pytb, *.py3tb)
+* python, py, sage, python3, py3:
+    Python (filenames *.py, *.pyw, *.jy, *.sage, *.sc, SConstruct, SConscript, *.bzl, BUCK, BUILD, BUILD.bazel, WORKSPACE, *.tac)
+* python2, py2:
+    Python 2.x
 * qbasic, basic:
     QBasic (filenames *.BAS, *.bas)
-* qml:
-    QML (filenames *.qml)
+* qml, qbs:
+    QML (filenames *.qml, *.qbs)
+* qvto, qvt:
+    QVTO (filenames *.qvto)
 * racket, rkt:
     Racket (filenames *.rkt, *.rktd, *.rktl)
 * ragel-c:
@@ -555,13 +683,13 @@ Lexers:
 * ragel-ruby, ragel-rb:
     Ragel in Ruby Host (filenames *.rl)
 * ragel:
-    Ragel 
+    Ragel
 * raw:
-    Raw token data 
+    Raw token data
 * rb, ruby, duby:
-    Ruby (filenames *.rb, *.rbw, Rakefile, *.rake, *.gemspec, *.rbx, *.duby)
+    Ruby (filenames *.rb, *.rbw, Rakefile, *.rake, *.gemspec, *.rbx, *.duby, Gemfile)
 * rbcon, irb:
-    Ruby irb session 
+    Ruby irb session
 * rconsole, rout:
     RConsole (filenames *.Rout)
 * rd:
@@ -575,37 +703,63 @@ Lexers:
 * registry:
     reg (filenames *.reg)
 * resource, resourcebundle:
-    ResourceBundle (filenames *.txt)
+    ResourceBundle
 * rexx, arexx:
     Rexx (filenames *.rexx, *.rex, *.rx, *.arexx)
 * rhtml, html+erb, html+ruby:
     RHTML (filenames *.rhtml)
+* rnc, rng-compact:
+    Relax-NG Compact (filenames *.rnc)
+* roboconf-graph:
+    Roboconf Graph (filenames *.graph)
+* roboconf-instances:
+    Roboconf Instances (filenames *.instances)
 * robotframework:
-    RobotFramework (filenames *.txt, *.robot)
+    RobotFramework (filenames *.robot)
 * rql:
     RQL (filenames *.rql)
 * rsl:
     RSL (filenames *.rsl)
 * rst, rest, restructuredtext:
     reStructuredText (filenames *.rst, *.rest)
-* rust:
-    Rust (filenames *.rs)
+* rts, trafficscript:
+    TrafficScript (filenames *.rts)
+* rust, rs:
+    Rust (filenames *.rs, *.rs.in)
+* sarl:
+    SARL (filenames *.sarl)
+* sas:
+    SAS (filenames *.SAS, *.sas)
 * sass:
     Sass (filenames *.sass)
+* sc, supercollider:
+    SuperCollider (filenames *.sc, *.scd)
 * scala:
     Scala (filenames *.scala)
 * scaml:
     Scaml (filenames *.scaml)
+* scdoc, scd:
+    scdoc (filenames *.scd, *.scdoc)
 * scheme, scm:
     Scheme (filenames *.scm, *.ss)
 * scilab:
     Scilab (filenames *.sci, *.sce, *.tst)
 * scss:
     SCSS (filenames *.scss)
-* shell-session:
-    Shell Session (filenames *.shell-session)
+* sgf:
+    SmartGameFormat (filenames *.sgf)
+* shen:
+    Shen (filenames *.shen)
+* shexc, shex:
+    ShExC (filenames *.shex)
+* silver:
+    Silver (filenames *.sil, *.vpr)
+* slash:
+    Slash (filenames *.sl)
 * slim:
     Slim (filenames *.slim)
+* slurm, sbatch:
+    Slurm (filenames *.sl)
 * smali:
     Smali (filenames *.smali)
 * smalltalk, squeak, st:
@@ -616,6 +770,10 @@ Lexers:
     Standard ML (filenames *.sml, *.sig, *.fun)
 * snobol:
     Snobol (filenames *.snobol)
+* snowball:
+    Snowball (filenames *.sbl)
+* solidity:
+    Solidity (filenames *.sol)
 * sourceslist, sources.list, debsources:
     Debian Sourcelist (filenames sources.list)
 * sp:
@@ -636,6 +794,8 @@ Lexers:
     Scalate Server Page (filenames *.ssp)
 * stan:
     Stan (filenames *.stan)
+* stata, do:
+    Stata (filenames *.do, *.ado)
 * swift:
     Swift (filenames *.swift)
 * swig:
@@ -644,40 +804,72 @@ Lexers:
     systemverilog (filenames *.sv, *.svh)
 * tads3:
     TADS 3 (filenames *.t)
+* tap:
+    TAP (filenames *.tap)
+* tasm:
+    TASM (filenames *.asm, *.ASM, *.tasm)
 * tcl:
     Tcl (filenames *.tcl, *.rvt)
 * tcsh, csh:
     Tcsh (filenames *.tcsh, *.csh)
+* tcshcon:
+    Tcsh Session
 * tea:
     Tea (filenames *.tea)
+* termcap:
+    Termcap (filenames termcap, termcap.src)
+* terminfo:
+    Terminfo (filenames terminfo, terminfo.src)
+* terraform, tf:
+    Terraform (filenames *.tf)
 * tex, latex:
     TeX (filenames *.tex, *.aux, *.toc)
 * text:
     Text only (filenames *.txt)
+* thrift:
+    Thrift (filenames *.thrift)
 * todotxt:
     Todotxt (filenames todo.txt, *.todotxt)
+* toml:
+    TOML (filenames *.toml)
 * trac-wiki, moin:
-    MoinMoin/Trac Wiki markup 
+    MoinMoin/Trac Wiki markup
 * treetop:
     Treetop (filenames *.treetop, *.tt)
-* ts:
-    TypeScript (filenames *.ts)
+* ts, typescript:
+    TypeScript (filenames *.ts, *.tsx)
+* tsql, t-sql:
+    Transact-SQL (filenames *.sql)
+* ttl, teraterm, teratermmacro:
+    Tera Term macro (filenames *.ttl)
+* turtle:
+    Turtle (filenames *.ttl)
 * twig:
-    Twig 
+    Twig
 * typoscript:
-    TypoScript (filenames *.ts, *.txt)
+    TypoScript (filenames *.typoscript)
 * typoscriptcssdata:
-    TypoScriptCssData 
+    TypoScriptCssData
 * typoscripthtmldata:
-    TypoScriptHtmlData 
+    TypoScriptHtmlData
+* ucode:
+    ucode (filenames *.u, *.u1, *.u2)
+* unicon:
+    Unicon (filenames *.icn)
 * urbiscript:
     UrbiScript (filenames *.u)
 * vala, vapi:
     Vala (filenames *.vala, *.vapi)
 * vb.net, vbnet:
     VB.net (filenames *.vb, *.bas)
+* vbscript:
+    VBScript (filenames *.vbs, *.VBS)
+* vcl:
+    VCL (filenames *.vcl)
+* vclsnippets, vclsnippet:
+    VCLSnippets
 * vctreestatus:
-    VCTreeStatus 
+    VCTreeStatus
 * velocity:
     Velocity (filenames *.vm, *.fhtml)
 * verilog, v:
@@ -688,30 +880,36 @@ Lexers:
     vhdl (filenames *.vhdl, *.vhd)
 * vim:
     VimL (filenames *.vim, .vimrc, .exrc, .gvimrc, _vimrc, _exrc, _gvimrc, vimrc, gvimrc)
+* wdiff:
+    WDiff (filenames *.wdiff)
+* whiley:
+    Whiley (filenames *.whiley)
+* x10, xten:
+    X10 (filenames *.x10)
 * xml+cheetah, xml+spitfire:
-    XML+Cheetah 
+    XML+Cheetah
 * xml+django, xml+jinja:
-    XML+Django/Jinja 
+    XML+Django/Jinja
 * xml+erb, xml+ruby:
-    XML+Ruby 
+    XML+Ruby
 * xml+evoque:
     XML+Evoque (filenames *.xml)
 * xml+lasso:
-    XML+Lasso 
+    XML+Lasso
 * xml+mako:
-    XML+Mako 
-* xml+mako:
-    XML+Mako 
+    XML+Mako
 * xml+myghty:
-    XML+Myghty 
+    XML+Myghty
 * xml+php:
-    XML+PHP 
+    XML+PHP
 * xml+smarty:
-    XML+Smarty 
+    XML+Smarty
 * xml+velocity:
-    XML+Velocity 
+    XML+Velocity
 * xml:
     XML (filenames *.xml, *.xsl, *.rss, *.xslt, *.xsd, *.wsdl, *.wsf)
+* xorg.conf:
+    Xorg (filenames xorg.conf)
 * xquery, xqy, xq, xql, xqm:
     XQuery (filenames *.xqy, *.xquery, *.xq, *.xql, *.xqm)
 * xslt:
@@ -724,13 +922,17 @@ Lexers:
     YAML+Jinja (filenames *.sls)
 * yaml:
     YAML (filenames *.yaml, *.yml)
+* zeek, bro:
+    Zeek (filenames *.zeek, *.bro)
 * zephir:
     Zephir (filenames *.zep)
+* zig:
+    Zig (filenames *.zig)
 
 Formatters:
 ~~~~~~~~~~~
 * bbcode, bb:
-    Format tokens with BBcodes. These formatting codes are used by many bulletin boards, so you can highlight your sourcecode with pygments before posting it there. 
+    Format tokens with BBcodes. These formatting codes are used by many bulletin boards, so you can highlight your sourcecode with pygments before posting it there.
 * bmp, bitmap:
     Create a bitmap image from source code. This uses the Python Imaging Library to generate a pixmap from the source code. (filenames *.bmp)
 * gif:
@@ -739,6 +941,8 @@ Formatters:
     Format tokens as HTML 4 ``<span>`` tags within a ``<pre>`` tag, wrapped in a ``<div>`` tag. The ``<div>``'s CSS class can be set by the `cssclass` option. (filenames *.html, *.htm)
 * img, IMG, png:
     Create a PNG image from source code. This uses the Python Imaging Library to generate a pixmap from the source code. (filenames *.png)
+* irc, IRC:
+    Format tokens with IRC color sequences
 * jpg, jpeg:
     Create a JPEG image from source code. This uses the Python Imaging Library to generate a pixmap from the source code. (filenames *.jpg)
 * latex, tex:
@@ -750,11 +954,13 @@ Formatters:
 * svg:
     Format tokens as an SVG graphics file.  This formatter is still experimental. Each line of code is a ``<text>`` element with explicit ``x`` and ``y`` coordinates containing ``<tspan>`` elements with the individual token styles. (filenames *.svg)
 * terminal, console:
-    Format tokens with ANSI color sequences, for output in a text console. Color sequences are terminated at newlines, so that paging the output works correctly. 
+    Format tokens with ANSI color sequences, for output in a text console. Color sequences are terminated at newlines, so that paging the output works correctly.
+* terminal16m, console16m, 16m:
+    Format tokens with ANSI color sequences, for output in a true-color terminal or console.  Like in `TerminalFormatter` color sequences are terminated at newlines, so that paging the output works correctly.
 * terminal256, console256, 256:
-    Format tokens with ANSI color sequences, for output in a 256-color terminal or console. Like in `TerminalFormatter` color sequences are terminated at newlines, so that paging the output works correctly. 
+    Format tokens with ANSI color sequences, for output in a 256-color terminal or console.  Like in `TerminalFormatter` color sequences are terminated at newlines, so that paging the output works correctly.
 * testcase:
-    Format tokens as appropriate for a new testcase. 
+    Format tokens as appropriate for a new testcase.
 * text, null:
     Output the text unchanged without any formatting. (filenames *.txt)
 
@@ -777,49 +983,75 @@ Filters:
 
 Styles:
 ~~~~~~~
+* solarized-dark:
+    The solarized style, dark.
+* monokai:
+    This style mimics the Monokai color scheme.
 * manni:
     A colorful style, inspired by the terminal highlighting style.
+* colorful:
+    A colorful style, inspired by CodeRay.
 * igor:
     Pygments version of the official colors for Igor Pro procedures.
+* lovelace:
+    The style used in Lovelace interactive learning environment. Tries to avoid the "angry fruit salad" effect with desaturated and dim colours.
 * xcode:
     Style similar to the Xcode default colouring theme.
+* murphy:
+    Murphy's style from CodeRay.
+* paraiso-dark:
+
 * vim:
     Styles somewhat like vim 7.0
 * autumn:
     A colorful style, inspired by the terminal highlighting style.
-* vs:
-    
+* stata-light:
+    Light mode style inspired by Stata's do-file editor. This is not meant to be a complete style, just for use with Stata.
+* abap:
+
+* bw:
+
+* inkpot:
+
+* sas:
+    Style inspired by SAS' enhanced program editor. Note This is not meant to be a complete style. It's merely meant to mimic SAS' program editor syntax highlighting.
+* stata-dark:
+
 * rrt:
     Minimalistic "rrt" theme, based on Zap and Emacs defaults.
+* pastie:
+    Style similar to the pastie default style.
+* rainbow_dash:
+    A bright and colorful syntax highlighting theme.
 * native:
     Pygments version of the "native" vim theme.
+* solarized-light:
+    The solarized style, light.
+* paraiso-light:
+
 * perldoc:
     Style similar to the style used in the perldoc code blocks.
 * borland:
     Style similar to the style used in the borland IDEs.
-* tango:
-    The Crunchy default Style inspired from the color palette from the Tango Icon Theme Guidelines.
-* emacs:
-    The default style (inspired by Emacs 22).
-* friendly:
-    A modern style based on the VIM pyte theme.
-* monokai:
-    This style mimics the Monokai color scheme.
-* paraiso-dark:
-    
-* colorful:
-    A colorful style, inspired by CodeRay.
-* murphy:
-    Murphy's style from CodeRay.
-* bw:
-    
-* pastie:
-    Style similar to the pastie default style.
-* paraiso-light:
-    
 * trac:
     Port of the default trac highlighter design.
+* arduino:
+    The Arduino® language style. This style is designed to highlight the Arduino source code, so exepect the best results with it.
 * default:
     The default style (inspired by Emacs 22).
+* tango:
+    The Crunchy default Style inspired from the color palette from the Tango Icon Theme Guidelines.
 * fruity:
     Pygments version of the "native" vim theme.
+* vs:
+
+* emacs:
+    The default style (inspired by Emacs 22).
+* algol_nu:
+
+* stata:
+    Light mode style inspired by Stata's do-file editor. This is not meant to be a complete style, just for use with Stata.
+* algol:
+
+* friendly:
+    A modern style based on the VIM pyte theme.
