@@ -11,7 +11,7 @@ See https://github.com/TYPO3-Documentation/sphinxcontrib.t3fieldlisttable/tree/d
 .. contents:: This page
    :backlinks: top
    :class: compact-list
-   :depth: 3
+   :depth: 99
    :local:
 
 

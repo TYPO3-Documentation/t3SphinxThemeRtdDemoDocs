@@ -12,7 +12,7 @@ See https://github.com/TYPO3-Documentation/sphinx-contrib-youtube/blob/develop/R
 .. contents:: This page
    :backlinks: top
    :class: compact-list
-   :depth: 3
+   :depth: 99
    :local:
 
 

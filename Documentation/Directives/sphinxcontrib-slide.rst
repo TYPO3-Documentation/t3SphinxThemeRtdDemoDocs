@@ -12,7 +12,7 @@ Navigate this page:
 .. contents:: This page
    :backlinks: top
    :class: compact-list
-   :depth: 3
+   :depth: 99
    :local:
 
 .. note:: For this page to work a version *newer than* v2.2.1 of the Docker

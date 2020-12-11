@@ -10,7 +10,7 @@ Page subtitle
 .. contents:: This page and subpages
    :backlinks: top
    :class: compact-list
-   :depth: 3
+   :depth: 99
 
 
 .. rst-class:: compact-list

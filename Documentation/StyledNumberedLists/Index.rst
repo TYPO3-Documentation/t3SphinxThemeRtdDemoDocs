@@ -10,7 +10,7 @@ Jargon: This is all about "bignums"!
 .. contents:: This page
    :backlinks: top
    :class: compact-list
-   :depth: 3
+   :depth: 99
    :local:
 
 
