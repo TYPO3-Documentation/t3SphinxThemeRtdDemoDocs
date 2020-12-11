@@ -9,6 +9,13 @@ sphinxcontrib-youtube
 
 See https://github.com/TYPO3-Documentation/sphinx-contrib-youtube/blob/develop/README.rst
 
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 99
+   :local:
+
+
 Youtube
 =======
 

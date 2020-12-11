@@ -8,6 +8,13 @@ sphinxcontrib-t3fieldlisttable
 
 See https://github.com/TYPO3-Documentation/sphinxcontrib.t3fieldlisttable/tree/develop
 
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 99
+   :local:
+
+
 Learning by example: The "t3-field-list-table" directive
 ========================================================
 

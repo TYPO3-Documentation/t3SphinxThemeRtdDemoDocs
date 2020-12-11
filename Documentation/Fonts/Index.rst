@@ -4,6 +4,13 @@
 Fonts
 =====
 
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 99
+   :local:
+
+
 SourceCodePro
 =============
 

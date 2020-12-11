@@ -10,9 +10,11 @@ On this page:
 
 .. rst-class:: compact-list
 
-.. contents::
-   :local:
+.. contents:: This page
    :backlinks: top
+   :class: compact-list
+   :depth: 99
+   :local:
 
 
 .. attention::

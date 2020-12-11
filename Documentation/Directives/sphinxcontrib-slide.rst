@@ -9,11 +9,11 @@ sphinxcontrib-slide
 
 Navigate this page:
 
-.. contents::
-   :class: compact-list
-   :local:
-   :depth: 3
+.. contents:: This page
    :backlinks: top
+   :class: compact-list
+   :depth: 99
+   :local:
 
 .. note:: For this page to work a version *newer than* v2.2.1 of the Docker
           container is required.

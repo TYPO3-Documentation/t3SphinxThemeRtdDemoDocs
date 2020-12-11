@@ -6,8 +6,6 @@
 Plantuml icons
 ===========================
 
-.. include:: /etc/passwd
-
 Taken from: https://plantuml.com/stdlib
 
 There are two ways to integrate icons into your diagrams: Either by using the

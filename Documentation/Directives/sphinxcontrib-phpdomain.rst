@@ -8,6 +8,13 @@ sphinxcontrib-phpdomain
 
 See https://pythonhosted.org/sphinxcontrib-phpdomain/
 
+.. contents:: This page
+   :backlinks: top
+   :class: compact-list
+   :depth: 99
+   :local:
+
+
 Quick Sample
 ============
 
