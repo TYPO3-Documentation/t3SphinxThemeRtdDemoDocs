@@ -1,6 +1,7 @@
 
 .. include:: /Includes.rst.txt
 
+.. _confval:
 
 =========================
 confval

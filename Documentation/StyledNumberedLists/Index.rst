@@ -2,7 +2,7 @@
 .. _Styled-Numbered-Lists:
 
 =====================
-Styled Numbered Lists
+Styled numbered lists
 =====================
 
 Jargon: This is all about "bignums"!

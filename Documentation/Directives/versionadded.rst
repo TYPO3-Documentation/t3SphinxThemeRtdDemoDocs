@@ -6,7 +6,13 @@
 versionadded & friends
 =========================
 
-See https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-versionadded
+Read about the `versionadded directive`__ in the `Sphinx docs`__.
+
+__ https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-versionadded
+__ https://www.sphinx-doc.org/en/master/
+
+Examples
+========
 
 versionadded
    .. versionadded:: 4.5

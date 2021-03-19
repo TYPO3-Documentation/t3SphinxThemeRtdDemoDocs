@@ -131,7 +131,21 @@ Example
 
 This is an ordinary paragraph, introducing a block quote.
 
-   "It is my business to know things. That is my trade."
+Source
+------
+
+.. code-block:: rst
+
+   "It is my business to know things.
+   That is my trade."
 
    -- Sherlock Holmes
 
+
+Result
+------
+
+   "It is my business to know things.
+   That is my trade."
+
+   -- Sherlock Holmes

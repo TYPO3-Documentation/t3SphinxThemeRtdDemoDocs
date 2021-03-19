@@ -1,9 +1,9 @@
 .. include:: /Includes.rst.txt
 
-.. _Images-And-Figures:
+.. _Images-and-figures:
 
 ==================
-Images And Figures
+Images and figures
 ==================
 
 .. contents:: This page
