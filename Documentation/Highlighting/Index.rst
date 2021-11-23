@@ -323,7 +323,7 @@ Java
 ::
 
    /**
-    * @author John Smith <john.smith@example.com>
+    * @author John Smith <john.smith@example.org>
     * @version 1.0
     */
    package l2f.gameserver.model;
@@ -438,12 +438,12 @@ So let's see what happens for 'guess'::
 
    # hello world
 
-   you can write text [with links](http://example.com) inline or [link references][1].
+   you can write text [with links](https://example.org) inline or [link references][1].
 
    * one _thing_ has *em*phasis
    * two __things__ are **bold**
 
-   [1]: http://example.com
+   [1]: https://example.org
 
    ---
 
@@ -492,7 +492,7 @@ Nginx
        #lingering_time 30;
 
        server {
-           server_name   one.example.com  www.one.example.com;
+           server_name   one.example.org  www.one.example.org;
            access_log   /var/log/nginx.access_log  main;
 
            rewrite (.*) /index.php?page=$1 break;
