@@ -1,9 +1,10 @@
-========================
-t3SphinxThemeRtdDemoDocs
-========================
+==========================
+t3SphinxThemeRtd Demo Docs
+==========================
 
-Demonstrate how reST constructs look like when rendered
-with the t3SphinxThemeRtd theme.
+This repository demonstrates how reST constructs look like when rendered with
+the `t3SphinxThemeRtd <https://github.com/TYPO3-Documentation/t3SphinxThemeRtd>`__
+theme.
 
-:Source:      https://github.com/TYPO3-Documentation/t3SphinxThemeRtdDemoDocs/
-:Rendered at: https://docs.typo3.org/m/typo3/demo-t3SphinxThemeRtd/master/en-us/
+:Repository:  https://github.com/TYPO3-Documentation/t3SphinxThemeRtdDemoDocs/
+:Read online: https://docs.typo3.org/m/typo3/demo-t3SphinxThemeRtd/main/en-us/

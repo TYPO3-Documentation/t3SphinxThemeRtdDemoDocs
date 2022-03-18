@@ -1,20 +1,27 @@
-.. This is '/Includes.rst.txt'. It is included at the very top of each and
-   every ReST source file in THIS documentation project (= manual).
+.. More information about this file:
+   https://docs.typo3.org/m/typo3/docs-how-to-document/main/en-us/GeneralConventions/FileStructure.html#includes-rst-txt
 
-.. ---------
-.. textroles
-.. ---------
+.. ----------
+.. text roles
+.. ----------
 
-.. role:: aspect (emphasis)
+.. role:: aspect(emphasis)
+.. role:: bash(code)
 .. role:: html(code)
 .. role:: js(code)
 .. role:: php(code)
 .. role:: rst(code)
-.. role:: sep (strong)
-.. role:: typoscript(code)
-
-.. role:: ts(typoscript)
+.. role:: sep(strong)
+.. role:: sql(code)
+.. role:: ts(code)
    :class: typoscript
+
+.. role:: tsconfig(code)
+   :class: typoscript
+
+.. role:: typoscript(code)
+.. role:: xml(code)
+   :class: html
 
 .. role:: yaml(code)
 
@@ -24,6 +31,6 @@
 .. highlight
 .. ---------
 
-.. By default, code rst is highlighted in the manual
+.. By default, code blocks use reST syntax highlighting
 
 .. highlight:: rst
