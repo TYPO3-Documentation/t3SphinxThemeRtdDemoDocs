@@ -48,7 +48,6 @@ issue            ``:issue:`12345```                                :issue:`12345
 js               ``:js:`var f = function () {return 1;}```         :js:`var f = function () {return 1;}`
 php              ``:php:`$result = $a + 23;```                     :php:`$result = $a + 23;`
 sep              ``:sep:`|```                                      :sep:`|`                                     To give the separator '\|' a special style in some contexts like ``:ref:`Styled-Definition-Lists```
-ts               ``:ts:`lib.hello.value = Hello World!```          :ts:`lib.hello.value = Hello World!`
 typoscript       ``:typoscript:`lib.hello.value = Hello World!```  :typoscript:`lib.hello.value = Hello World!`
 yaml             ``:yaml:`- {name: John Smith, age: 33}```         :yaml:`- {name: John Smith, age: 33}`
 ================ ================================================= ============================================ ===
@@ -150,7 +149,6 @@ code             ``:code:`result = (1 + x) * 32```                 :code:`result
 file             ``:file:`/etc/passwd```                           :file:`/etc/passwd`
 js               ``:js:`var f = function () {return 1;}```         :js:`var f = function () {return 1;}`
 html             ``:html:`<a href="#">```                          :html:`<a href="#">`
-ts               ``:ts:`lib.hello.value = Hello World!```          :ts:`lib.hello.value = Hello World!`
 typoscript       ``:typoscript:`lib.hello.value = Hello World!```  :typoscript:`lib.hello.value = Hello World!`
 php              ``:php:`$result = $a + 23;```                     :php:`$result = $a + 23;`
 ================ ================================================= ============================================
@@ -172,25 +170,43 @@ Self Defined Textroles
 
 In file :file:`/Includes.rst.txt` we usually have::
 
-   .. This is '/Includes.rst.txt'. It is included at the very top of each
-      and every ReST source file in THIS documentation project (= manual).
+   .. More information about this file:
+      https://docs.typo3.org/m/typo3/docs-how-to-document/main/en-us/GeneralConventions/FileStructure.html#includes-rst-txt
 
-   .. role:: aspect (emphasis)
+   .. ----------
+   .. text roles
+   .. ----------
+
+   .. role:: aspect(emphasis)
+   .. role:: bash(code)
    .. role:: html(code)
    .. role:: js(code)
    .. role:: php(code)
-   .. role:: typoscript(code)
-   .. role:: ts(typoscript)
+   .. role:: rst(code)
+   .. role:: sep(strong)
+   .. role:: sql(code)
+
+   .. role:: tsconfig(code)
       :class: typoscript
 
-   .. highlight:: php
+   .. role:: typoscript(code)
+   .. role:: xml(code)
+      :class: html
+
+   .. role:: yaml(code)
+
    .. default-role:: code
 
+   .. ---------
+   .. highlight
+   .. ---------
+
+   .. By default, code blocks use PHP syntax highlighting
+
+   .. highlight:: php
 
 Check the following to see if we have give those an individual styling:
 
 - This is how ``:php:`$result = $a + 23;``` looks like: :php:`$result = $a + 23;`
 
 - This is how ``:typoscript:`lib.hello.value = Hello World!``` looks like: :typoscript:`lib.hello.value = Hello World!`
-
-- This is how ``:ts:`lib.hello.value = Hello World!``` looks like: :ts:`lib.hello.value = Hello World!`
